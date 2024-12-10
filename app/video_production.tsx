@@ -23,7 +23,7 @@ const stores = [
   },
 ];
 
-const ShopifyStores = () => {
+const VideoProd = () => {
   return (
     <section
       className=" mt-10 md:py-10 bg-[#f6f5f4] w-full
@@ -69,4 +69,4 @@ const ShopifyStores = () => {
   );
 };
 
-export default ShopifyStores;
+export default VideoProd;

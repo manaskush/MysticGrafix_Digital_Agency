@@ -36,7 +36,7 @@ const Brands = () => {
       <div className=" p-4   mx-auto relative z-10  w-full pt-20 md:pt-32">
         <div className="text-4xl md:pb-8 md:text-7xl text-center 
         bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
-          The best brands <br /> names we've worked with
+          The best brands <br /> names we&apos;ve worked with
         </div>
 
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto">
@@ -69,7 +69,7 @@ const Brands = () => {
           MysticGrafix does for us.&quot;
         </div>
 
-        <div className="items-center flex justify-center flex-col text-white">
+        {/* <div className="items-center flex justify-center flex-col text-white">
           <Image
             src="/images/logo.svg"
             alt="logo"
@@ -82,7 +82,7 @@ const Brands = () => {
             <div className="text-sm  font-medium pt-4">Carlos Hernandez</div>
             <div className="text-sm">Marketing Director, Palium Software</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

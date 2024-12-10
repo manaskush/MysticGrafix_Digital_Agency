@@ -14,6 +14,38 @@ import Brands from "./brands";
 import Services from "./services";
 import FAQS from "./faq";
 import { InfiniteMovingCardsDemo } from "./snippets/infinite-moving-card-snippet";
+import VideoProd from "./video_production";
+
+const projects = [
+  {
+    title: "E-Commerce",
+    description: "E-Commerce a fully responsive, high-performance, scalable platform using modern web technologies, provides a seamless shopping experience for users to browse, book, and manage categories of products effortlessly. Focused highly on efficient e-commerce platform that increased the clients online sales and enhanced user engagement.",
+    link: "https://ventesinfotech-wqb5.vercel.app/",
+    techUsed: "Next JS, React Redux, Tailwind CSS, Node.js, Express.js,Multer, MongoDB, Mongoose",
+    github: "https://github.com/Sakshamgargj/ventesinfotech",
+    date: "2024",
+    video: "/video/eCommerce.mp4",
+  },
+  {
+    title: "Hotel/Resort Application",
+    description: "A comprehensive digital platform designed to revolutionize the Hotel/Resort booking experience. This application enables users to browse, search, and book accommodations seamlessly, providing an intuitive interface and smooth user experience.  The platform is built with scalability in mind, making it ideal for both small and large hospitality businesses. It also features a responsive design, ensuring accessibility across all devices, including desktops, tablets, and smartphones.",
+    link: "",
+    techUsed: "Next Js, Redux,Tailwind CSS, Javascript",
+    github: "https://github.com/Sakshamgargj/hotel_mangement",
+    date: "2024",
+    video: "/video/hotelSystem.mp4",
+  },
+  {
+    title: "Car Rental",
+    description: "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
+    link: "https://car-rental-frontend-swart.vercel.app/",
+    techUsed: "React, React Redux,HTML5, CSS, JavaScript, Bootstrap,Node.js, Express.js,MongoDB,Mongoose",
+    github: "https://github.com/Sakshamgargj/CarRental",
+    date: "2024",
+    video: "/video/carRental.mp4",
+  }
+];
+
 
 export default function Home() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -86,12 +118,13 @@ export default function Home() {
         </div>
         <div ref={websiteDesignRef}>
           <WebsiteDesign />
+          
         </div>
         <div ref={graphicDesignRef}>
           <GraphicDesign />
         </div>
         <div ref={shopifyStoresRef}>
-          <ShopifyStores />
+          <VideoProd />
         </div>
         <div ref={brandsRef}>
           <Brands />

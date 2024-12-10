@@ -39,7 +39,7 @@ const Navbar = ({
           <Link className="cursor-pointer" href="/">
             <Image
               priority
-              src="/logo/mglogo.svg"
+              src="/logo/mainlogo.png"
               alt="Logo"
               width={1000}
               height={1000}
