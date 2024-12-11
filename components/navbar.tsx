@@ -34,16 +34,16 @@ const Navbar = ({
 
   return (
     <div>
-      <div className="p-6 md:p-10 flex items-center justify-between z-50">
+      <div className="p-6 md:p-10 flex items-center justify-between z-50 ">
         <div>
           <Link className="cursor-pointer" href="/">
             <Image
               priority
-              src="/logo/mainlogo.png"
+              src="/logo/Mysticlogo.png"
               alt="Logo"
-              width={1000}
-              height={1000}
-              className="w-15 h-15 md:w-14 md:h-14"
+              width={50000}
+              height={50000}
+              className="w-60 h-30 md:w-45 md:h-25"
             />
           </Link>
         </div>
