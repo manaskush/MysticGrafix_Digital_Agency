@@ -111,7 +111,7 @@ export default function Home() {
           href={"/book"}
           className="cursor-pointer flex items-center justify-center border rounded-full w-48 p-2  mx-auto my-6 text-white "
         >
-          Book a call
+          Book a call  
         </Link>
         
 
