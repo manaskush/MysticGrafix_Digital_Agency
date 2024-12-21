@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useState, useRef } from "react";
 import Navbar from "@/components/navbar";
@@ -15,37 +15,58 @@ import Services from "./services";
 import FAQS from "./faq";
 import { InfiniteMovingCardsDemo } from "./snippets/infinite-moving-card-snippet";
 import VideoProd from "./video_production";
+import { Github } from "lucide-react";
+import prosperas from "../public/images/prosperas.png";
 
 const projects = [
   {
     title: "E-Commerce",
-    description: "E-Commerce a fully responsive, high-performance, scalable platform using modern web technologies, provides a seamless shopping experience for users to browse, book, and manage categories of products effortlessly. Focused highly on efficient e-commerce platform that increased the clients online sales and enhanced user engagement.",
+    description:
+      "E-Commerce a fully responsive, high-performance, scalable platform using modern web technologies, provides a seamless shopping experience for users to browse, book, and manage categories of products effortlessly. Focused highly on efficient e-commerce platform that increased the clients online sales and enhanced user engagement.",
     link: "https://ventesinfotech-wqb5.vercel.app/",
-    techUsed: "Next JS, React Redux, Tailwind CSS, Node.js, Express.js,Multer, MongoDB, Mongoose",
+    techUsed:
+      "Next JS, React Redux, Tailwind CSS, Node.js, Express.js, Multer, MongoDB, Mongoose",
     github: "https://github.com/Sakshamgargj/ventesinfotech",
     date: "2024",
     video: "/video/eCommerce.mp4",
+    image: "/images/ventess.png", // Corrected path
   },
   {
     title: "Hotel/Resort Application",
-    description: "A comprehensive digital platform designed to revolutionize the Hotel/Resort booking experience. This application enables users to browse, search, and book accommodations seamlessly, providing an intuitive interface and smooth user experience.  The platform is built with scalability in mind, making it ideal for both small and large hospitality businesses. It also features a responsive design, ensuring accessibility across all devices, including desktops, tablets, and smartphones.",
+    description:
+      "A comprehensive digital platform designed to revolutionize the Hotel/Resort booking experience. This application enables users to browse, search, and book accommodations seamlessly, providing an intuitive interface and smooth user experience.  The platform is built with scalability in mind, making it ideal for both small and large hospitality businesses. It also features a responsive design, ensuring accessibility across all devices, including desktops, tablets, and smartphones.",
     link: "",
-    techUsed: "Next Js, Redux,Tailwind CSS, Javascript",
+    techUsed: "Next Js, Redux, Tailwind CSS, Javascript",
     github: "https://github.com/Sakshamgargj/hotel_mangement",
     date: "2024",
     video: "/video/hotelSystem.mp4",
+    image: "/images/ventess.png", // Corrected path
   },
   {
-    title: "Car Rental",
-    description: "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
+    title: "Prospera",
+    description:
+      "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
     link: "https://car-rental-frontend-swart.vercel.app/",
-    techUsed: "React, React Redux,HTML5, CSS, JavaScript, Bootstrap,Node.js, Express.js,MongoDB,Mongoose",
+    techUsed:
+      "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
     github: "https://github.com/Sakshamgargj/CarRental",
     date: "2024",
     video: "/video/carRental.mp4",
-  }
+    image: "/images/prosperas.png", // Corrected path
+  },
+  {
+    title: "Prospera",
+    description:
+      "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
+    link: "https://car-rental-frontend-swart.vercel.app/",
+    techUsed:
+      "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
+    github: "https://github.com/Sakshamgargj/CarRental",
+    date: "2024",
+    video: "/video/carRental.mp4",
+    image: "/images/prosperas.png", // Corrected path
+  },
 ];
-
 
 export default function Home() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -99,26 +120,117 @@ export default function Home() {
 
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="blue" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2 ">
-       
-           <div className="text-4xl  pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-          Create, grow, and <br /> scale your vision 
+        <div className="text-4xl  pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+          Create, grow, and <br /> scale your vision
         </div>
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
-          Custom Image and Video Designs based on your Interests. We are a team of creatives who are excited to provide you with best design and web solutions.
+          Custom Image and Video Designs based on your Interests. We are a team
+          of creatives who are excited to provide you with best design and web
+          solutions.
         </p>
 
         <Link
           href={"/book"}
           className="cursor-pointer flex items-center justify-center border rounded-full w-48 p-2  mx-auto my-6 text-white "
         >
-          Book a call  
+          Book a call
         </Link>
-        
 
-        
-        <div ref={websiteDesignRef} className="mt-20">
-          <WebsiteDesign />
-          
+        <div ref={websiteDesignRef} className="mt-20 text-white">
+          {/* <WebsiteDesign /> */}
+          <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
+            <div className="text-4xl  md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
+              Website Design <br /> that works
+            </div>
+            <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
+              Creating, designing and developing websites that work for your
+              business.
+            </p>
+          </div>
+          <div className="bg-gray-950 rounded-xl p-8 md:px-6 lg:px-8">
+            <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
+              <span className="text-green-100">A Collection of </span>
+              <span style={{ color: "#9D00FF" }}>recent Projects</span>
+              <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-500 to-sky-200" />
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
+              {projects.map((project) => (
+                <div
+                  key={project.title}
+                  className="group border border-gray-800 hover:border-gray-700 rounded-lg p-4 bg-gray-900 transition-all duration-300"
+                >
+                  {/* Image Section
+                  <div className="relative mb-4">
+                    <video
+                      src={project.video}
+                      loop
+                      autoPlay
+                      muted
+                      playsInline
+                      className="w-full h-48 rounded-md object-cover group-hover:ring-2 hover:scale-105 ring-purple-500/30 transition-all"
+                    />
+                  </div> */}
+                  <div className="relative mb-4">
+                    <Image
+                      src={project.image}
+                      alt="Project Image"
+                      className="w-full h-96 rounded-md object-cover group-hover:ring-2 hover:scale-105 ring-purple-500/30 transition-all"
+                      height={500}
+                      width={500}
+                    />
+                  </div>
+
+                  {/* Project Details */}
+                  <div className="flex justify-between">
+                    <h3 className="text-2xl font-semibold text-gray-100 group-hover:text-purple-400 transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-gray-500 mt-1 p-2 text-xs">
+                      {project.date}
+                    </p>
+                  </div>
+
+                  <p className="text-gray-400 mt-2 font-sans font-extralight text-sm">
+                    {project.description}
+                  </p>
+
+                  {/* Tech Stack */}
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {project.techUsed.split(",").map((tech, index) => (
+                      <span
+                        key={index}
+                        className="text-xs bg-gray-800 text-gray-400 hover:scale-110 transition-all px-2 py-1 rounded-full"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Links */}
+                  <div className="flex items-center justify-end gap-6 mt-4">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-purple-400 hover:scale-110 transition-all"
+                    >
+                      🌐 Website
+                    </a>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm flex  text-purple-400 hover:scale-110 transition-all"
+                    >
+                      <Github className="w-4 h-8 text-white" />
+                      <p className="px-1 py-2"> GitHub</p>
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
         <div ref={graphicDesignRef}>
           <GraphicDesign />
@@ -132,10 +244,10 @@ export default function Home() {
         <div ref={brandsRef}>
           <Brands />
         </div>
-        <div id ='services'>
-        <Services />
+        <div id="services">
+          <Services />
         </div>
-        
+
         <FAQS />
       </div>
     </div>
