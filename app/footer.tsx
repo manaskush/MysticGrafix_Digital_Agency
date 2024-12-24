@@ -58,7 +58,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-blue-700">Contact Us</h3>
             <ul className="mt-2 space-y-2 text-sm">
-              <li>Email: contact@mysticgrafix.com</li>
+              <li>Email: mysticgrafix2020@gmail.com</li>
               <li>Phone: +91 863 018 7916</li>
               <li>Address: MIET Meerut Incubation, NH-58, Near Baghpat Bypass</li>
             </ul>
