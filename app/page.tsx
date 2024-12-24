@@ -17,6 +17,8 @@ import { InfiniteMovingCardsDemo } from "./snippets/infinite-moving-card-snippet
 import VideoProd from "./video_production";
 import { Github } from "lucide-react";
 import prosperas from "../public/images/prosperas.png";
+import { HeroVideoDialogDemoTopInBottomOut } from "@/components/demos/hero-video-dialog-box-demo";
+import Footer from "./footer";
 
 const projects = [
   {
@@ -147,7 +149,7 @@ export default function Home() {
               business.
             </p>
           </div>
-          <div className="bg-gray-950 rounded-xl p-8 md:px-6 lg:px-8">
+          <div className=" rounded-xl p-8 md:px-6 lg:px-8">
             <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
               <span className="text-green-100">A Collection of </span>
               <span style={{ color: "#9D00FF" }}>recent Projects</span>
@@ -241,6 +243,11 @@ export default function Home() {
         <div ref={shopifyStoresRef}>
           <VideoProd />
         </div>
+        {/* <div className="flex justify-center items-center ">
+            <HeroVideoDialogDemoTopInBottomOut  videoSrc="http://www.youtube.com/watch?v=NQL5P82lm80"
+            />
+        </div> */}
+            <br /><br />
         <div ref={brandsRef}>
           <Brands />
         </div>
@@ -249,6 +256,7 @@ export default function Home() {
         </div>
 
         <FAQS />
+        <Footer/>
       </div>
     </div>
   );
