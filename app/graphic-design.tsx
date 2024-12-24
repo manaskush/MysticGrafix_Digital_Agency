@@ -75,6 +75,18 @@ const GraphicDesign = () => {
             <EvervaultCardSnippet />
           </motion.div>
         </motion.div>
+        {/* Paragraph */}
+        <motion.p
+          className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
+          Here are some of our handcrafted unique and exclusive designs
+          <br />
+          we made with love for our coustmers 
+        </motion.p>
       </motion.div>
     </div>
   );

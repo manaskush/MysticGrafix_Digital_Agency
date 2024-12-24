@@ -1,6 +1,7 @@
 'use client';
 
 import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -10,8 +11,16 @@ const Footer = () => {
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 border-b border-gray-700 pb-8">
           {/* About Section */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-100">About MysticGrafix</h3>
+          <div><div >
+            <Image
+                        priority
+                        src="/logo/Mysticlogo.png"
+                        alt="Logo"
+                        width={50000}
+                        height={50000}
+                        className="w-60 h-30 md:w-45 md:h-25"
+                      /></div>
+            
             <p className="mt-2 text-sm">
               MysticGrafix specializes in branding, web design, and digital marketing to help
               your business scale and succeed. Your vision, our expertise.
@@ -20,7 +29,7 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-100">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-emerald-600">Quick Links</h3>
             <ul className="mt-2 space-y-2">
               <li>
                 <Link href="/#website-design" className="hover:text-white transition">
@@ -47,7 +56,7 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-100">Contact Us</h3>
+            <h3 className="text-lg font-semibold text-blue-700">Contact Us</h3>
             <ul className="mt-2 space-y-2 text-sm">
               <li>Email: contact@mysticgrafix.com</li>
               <li>Phone: +91 863 018 7916</li>

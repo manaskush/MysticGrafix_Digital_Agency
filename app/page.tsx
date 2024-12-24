@@ -6,7 +6,7 @@ import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
 import Image from "next/image";
 import Link from "next/link";
-
+import motion from "framer-motion"
 import WebsiteDesign from "./website-design";
 import GraphicDesign from "./graphic-design";
 import ShopifyStores from "./video_production";
@@ -48,7 +48,7 @@ const projects = [
     title: "Prospera",
     description:
       "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
-    link: "https://car-rental-frontend-swart.vercel.app/",
+    link: "https://prospera-psi.vercel.app/",
     techUsed:
       "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
     github: "https://github.com/Sakshamgargj/CarRental",
@@ -238,6 +238,7 @@ export default function Home() {
           <GraphicDesign />
         </div>
         <div className="w-full pt-20">
+           
           <SliderOne />
         </div>
         <div ref={shopifyStoresRef}>
