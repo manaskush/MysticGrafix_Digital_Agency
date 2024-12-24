@@ -42,7 +42,7 @@ const projects = [
     github: "https://github.com/Sakshamgargj/hotel_mangement",
     date: "2024",
     video: "/video/hotelSystem.mp4",
-    image: "/images/ventess.png", // Corrected path
+    image: "/images/hotel.png", // Corrected path
   },
   {
     title: "Prospera",
@@ -59,14 +59,14 @@ const projects = [
   {
     title: "Prospera",
     description:
-      "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
+      "Prospera is a career counselling",
     link: "https://car-rental-frontend-swart.vercel.app/",
     techUsed:
       "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
     github: "https://github.com/Sakshamgargj/CarRental",
     date: "2024",
     video: "/video/carRental.mp4",
-    image: "/images/prosperas.png", // Corrected path
+    image: "/images/car.png", // Corrected path
   },
 ];
 
@@ -177,7 +177,7 @@ export default function Home() {
                     <Image
                       src={project.image}
                       alt="Project Image"
-                      className="w-full h-96 rounded-md object-cover group-hover:ring-2 hover:scale-105 ring-purple-500/30 transition-all"
+                      className="w-full h-full rounded-md object-cover group-hover:ring-2 hover:scale-105 ring-purple-500/30 transition-all"
                       height={500}
                       width={500}
                     />

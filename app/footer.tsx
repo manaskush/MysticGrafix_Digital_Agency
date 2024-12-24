@@ -1,6 +1,6 @@
 'use client';
 
-import { Github } from 'lucide-react';
+import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -50,8 +50,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-gray-100">Contact Us</h3>
             <ul className="mt-2 space-y-2 text-sm">
               <li>Email: contact@mysticgrafix.com</li>
-              <li>Phone: +1 234 567 890</li>
-              <li>Address: 123 MysticGrafix Street, NY</li>
+              <li>Phone: +91 863 018 7916</li>
+              <li>Address: MIET Meerut Incubation, NH-58, Near Baghpat Bypass</li>
             </ul>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-white transition"
             >
-              <i className="fab fa-linkedin w-5 h-5"></i>
+              <Linkedin/>
             </a>
             <a
               href="https://twitter.com/yourprofile"
@@ -82,7 +82,15 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-white transition"
             >
-              <i className="fab fa-twitter w-5 h-5"></i>
+              <Twitter/>
+            </a>
+            <a
+              href="https://twitter.com/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <Instagram/>
             </a>
           </div>
 
