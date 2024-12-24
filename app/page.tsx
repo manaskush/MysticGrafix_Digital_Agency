@@ -122,7 +122,7 @@ export default function Home() {
 
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="blue" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2 ">
-        <div className="py-36"><div className="text-6xl  pb-5 md:text-9xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
+        <div className="py-36"><div className="text-5xl  pb-5 md:text-8xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
           Create, grow, and <br /> scale your vision
         </div>
         <p className="mt-4 text-xl font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
