@@ -47,19 +47,19 @@ const projects = [
   {
     title: "Prospera",
     description:
-      "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
+    "Prospera is a Career counselling website with AI Chatbot Integrated used for proper counselling of students in the class 10 and 12 who are at the point of deciding the right career for them, It also has the feature of booking meeting appointments.",  
     link: "https://prospera-psi.vercel.app/",
     techUsed:
-      "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
+      "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Next.js, Scroll-Trigger, Framer-Motion",
     github: "https://github.com/Sakshamgargj/CarRental",
     date: "2024",
     video: "/video/carRental.mp4",
     image: "/images/prosperas.png", // Corrected path
   },
   {
-    title: "Prospera",
+    title: "Car Rental Platform",
     description:
-      "Prospera is a career counselling",
+      "Car Rental a fully responsive, user-friendly website using modern web technologies, enabling users to browse, book, and manage car rentals effortlessly. Focused on intuitive design and fast load times to enhance user satisfaction and retention.",
     link: "https://car-rental-frontend-swart.vercel.app/",
     techUsed:
       "React, React Redux, HTML5, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
@@ -130,6 +130,20 @@ export default function Home() {
           of creatives who are excited to provide you with best design and web
           solutions.
         </p>
+        <p
+  style={{
+    '--font-selector': 'Q1VTVE9NO09mZkJpdCBUcmlhbCBEb3QgQm9sZA==',
+    '--framer-font-family': `"OffBit Trial Dot Bold", "OffBit Trial Dot Bold Placeholder", sans-serif`,
+    '--framer-font-size': '181.41016390094788px',
+    '--framer-line-height': '0.9em',
+    '--framer-text-color': 'var(--token-279f93c0-5840-4158-9a93-81a80c7c1cf0, rgb(3, 3, 9))',
+  } as React.CSSProperties}
+  className="framer-text"
+>
+  Creative
+</p>
+
+
 
         <Link
           href={"/book"}
