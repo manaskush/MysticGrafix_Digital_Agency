@@ -6,15 +6,15 @@ interface Position {
   y: number;
 }
 
-const FloatingCircles: React.FC = () => {
+const FloatingCircle: React.FC = () => {
   const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
   const [scroll, setScroll] = useState<number>(0);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent): void => {
-      const x = (e.clientX / window.innerWidth) * 100;
-      const y = (e.clientY / window.innerHeight) * 100;
-      setPosition({ x, y });
+      const x = (e.clientX / window.innerWidth) * 100; // Mouse X position as a percentage
+      const y = (e.clientY / window.innerHeight) * 100; // Mouse Y position as a percentage
+      setPosition({ x: 100 - x, y: 100 - y }); // Invert positions for opposite movement
     };
 
     const handleScroll = (): void => {
@@ -33,22 +33,12 @@ const FloatingCircles: React.FC = () => {
 
   return (
     <div className="fixed inset-0 w-screen h-screen overflow-hidden pointer-events-none z-50">
-      {/* Purple Circle on the Left Side */}
-      <div 
-        className="absolute w-[35rem] h-[35rem] rounded-full bg-purple-500/30 blur-3xl"
-        style={{
-          left: `${Math.max(0, position.x - 30)}%`, // Adjusted to move left
-          top: `${Math.min(100, position.y + scroll)}%`, // Moves vertically based on mouse
-          transform: 'translate(-50%, -50%)',
-          transition: 'all 0.3s ease-out'
-        }}
-      />
-      {/* Blue Circle on the Right Side */}
+      {/* Blue Circle */}
       <div 
         className="absolute w-[35rem] h-[35rem] rounded-full bg-blue-500/30 blur-3xl"
         style={{
-          left: `${Math.min(100, position.x + 30)}%`, // Adjusted to move right
-          top: `${Math.min(100, position.y + scroll)}%`, // Moves vertically based on mouse
+          left: `${Math.max(0, position.x)}%`, // Ensure it doesn't go off the left side
+          top: `${Math.max(0, Math.min(100, position.y + scroll))}%`, // Ensure it stays within vertical bounds
           transform: 'translate(-50%, -50%)',
           transition: 'all 0.3s ease-out'
         }}
@@ -57,4 +47,4 @@ const FloatingCircles: React.FC = () => {
   );
 };
 
-export default FloatingCircles;
+export default FloatingCircle;
