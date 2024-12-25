@@ -5,7 +5,7 @@ import { CardHoverEffectDemo } from './snippets/card-hover-effect-snippet';
 
 const Services = () => {
   return (
-    <motion.div
+     <motion.div
       className="max-w-5xl mx-auto py-20"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import FloatingCircles from '@/components/floating-circles';
 
 const font = Poppins(
   { subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
       suppressHydrationWarning={true}
       className={font.className}>
         <Analytics />
+        <FloatingCircles/>
         {children}
         
         </body>
