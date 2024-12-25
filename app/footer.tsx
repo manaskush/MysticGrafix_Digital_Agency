@@ -70,7 +70,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/manaskush"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
@@ -78,7 +78,7 @@ const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/company/mysticgrafix/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
@@ -94,7 +94,7 @@ const Footer = () => {
               <Twitter/>
             </a>
             <a
-              href="https://twitter.com/yourprofile"
+              href="https://www.instagram.com/mysticgrafix_ind/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
