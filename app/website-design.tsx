@@ -21,7 +21,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
         alt=""
       />
@@ -31,7 +31,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
         alt=""
       />
@@ -41,7 +41,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shirt3.png"
         alt=""
       />
@@ -51,7 +51,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/squash.jpeg"
         alt=""
       />
@@ -61,7 +61,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/inv2.JPG"
         alt=""
       />
@@ -73,8 +73,8 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
-        src="/images/inv2.jpg"
+        className="h-auto w-full object-cover rounded-none m-0"
+        src="/images/inv2.JPG"
         alt=""
       />
     </div>
@@ -83,7 +83,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shilajit.jpg"
         alt=""
       />
@@ -93,7 +93,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
          alt=""
       />
@@ -103,7 +103,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/pahadihoney.jpg"
         alt=""
       />
@@ -113,7 +113,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shirt4.png"
         alt=""
       />
@@ -123,7 +123,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
         alt=""
       />
@@ -135,7 +135,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shirt2.png"
         alt=""
       />
@@ -145,7 +145,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
         alt=""
       />
@@ -155,7 +155,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shirt1.png"
         alt=""
       />
@@ -165,7 +165,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
         alt=""
       />
@@ -175,7 +175,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shirt3.png"
         alt=""
       />
@@ -187,7 +187,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/prfume.jpg"
         alt=""
       />
@@ -197,7 +197,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/clubloo.png"
         alt=""
       />
@@ -207,7 +207,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/shilajit.jpeg"
         alt=""
       />
@@ -217,7 +217,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
         alt=""
       />
@@ -227,7 +227,7 @@ const WebsiteDesign = () => {
         width={500}
         height={500}
         priority
-        className="h-auto max-w-full rounded-none m-0"
+        className="h-auto w-full object-cover rounded-none m-0"
         src="/images/inv1.jpg"
         alt=""
       />
