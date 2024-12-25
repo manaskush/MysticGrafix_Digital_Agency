@@ -164,11 +164,11 @@ export default function Home() {
             </p>
           </div>
           <div className=" rounded-xl p-8 md:px-6 lg:px-8">
-            <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
+            {/* <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
               <span className="text-green-100">A Collection of </span>
               <span style={{ color: "#9D00FF" }}>recent Projects</span>
               <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-500 to-sky-200" />
-            </h2>
+            </h2> */}
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
               {projects.map((project) => (
@@ -250,6 +250,7 @@ export default function Home() {
         </div>
         <div ref={graphicDesignRef}>
           <GraphicDesign />
+          <WebsiteDesign/>
         </div>
         <div className="w-full pt-20">
            
