@@ -37,7 +37,7 @@ const FAQS = () => {
 
         {/* Subheading */}
         <motion.div
-          className="font-semibold text-3xl md:text-6xl bg-gradient-to-r from-purple-600 to-blue-300 bg-clip-text text-transparent"
+          className="font-semibold text-3xl md:text-6xl bg-gradient-to-r from-blue-600 to-blue-300 bg-clip-text text-transparent"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}

@@ -32,7 +32,7 @@ const AnimatedBackground = () => {
   return (
     <div className=" bg-[#111] text-white font-['Poppins']">
       <div 
-        className="absolute inset-0 w-full h-full top-0 left-0  grid grid-cols-[repeat(30,1fr)] grid-rows-[repeat(30,1fr)] bg-[#1d1d1d] overflow-hidden"
+        className="absolute inset-0 w-full h-full top-0 left-0  grid grid-cols-[repeat(30,1fr)] grid-rows-[repeat(30,1fr)] bg-[#000000] overflow-hidden"
         ref={bgAnimationRef}
       >
         <div className="absolute top-0 left-0 w-full h-10 bg-[#00bfff] blur-[60px] animate-backgroundAnim" />

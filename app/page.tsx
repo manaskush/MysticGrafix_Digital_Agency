@@ -24,6 +24,8 @@ import AnimatedBackground from "./herobox";
 import { MarqueeDemo } from "@/components/demos/marquee-demo";
 import ProjectCard from "@/components/projects";
 import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonials-demo";
+import MysticGrafix from "@/components/MysticGrafix/MysticGrafix";
+
 
 const projects = [
   {
@@ -155,7 +157,7 @@ className=""/> */}
 {/* 
 <Hero/>
  */}
-
+ 
 
        {/* Content Container */}
        <div className="relative w-full">
@@ -212,90 +214,7 @@ className=""/> */}
           <div>
           <ProjectCard/>
           </div>
-          <div className=" rounded-xl p-8 md:px-6 lg:px-8">
-            {/* <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
-              <span className="text-green-100">A Collection of </span>
-              <span style={{ color: "#9D00FF" }}>recent Projects</span>
-              <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-500 to-sky-200" />
-            </h2> */}
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
-              {projects.map((project) => (
-                <div
-                  key={project.title}
-                  className="group border border-gray-800 hover:border-gray-700 rounded-lg p-4 bg-gray-900 transition-all duration-300"
-                >
-                  {/* Image Section
-                  <div className="relative mb-4">
-                    <video
-                      src={project.video}
-                      loop
-                      autoPlay
-                      muted
-                      playsInline
-                      className="w-full h-48 rounded-md object-cover group-hover:ring-2 hover:scale-105 ring-purple-500/30 transition-all"
-                    />
-                  </div> */}
-                  <div className="relative mb-4">
-                    <Image
-                      src={project.image}
-                      alt="Project Image"
-                      className="w-full h-full rounded-md object-cover group-hover:ring-2 hover:scale-105 ring-purple-500/30 transition-all"
-                      height={500}
-                      width={500}
-                    />
-                  </div>
-
-                  {/* Project Details */}
-                  <div className="flex justify-between">
-                    <h3 className="text-2xl font-semibold text-gray-100 group-hover:text-purple-400 transition-colors">
-                      {project.title}
-                    </h3>
-                    <p className="text-gray-500 mt-1 p-2 text-xs">
-                      {project.date}
-                    </p>
-                  </div>
-
-                  <p className="text-gray-400 mt-2 font-sans font-extralight text-sm">
-                    {project.description}
-                  </p>
-
-                  {/* Tech Stack */}
-                  <div className="flex flex-wrap gap-2 mt-3">
-                    {project.techUsed.split(",").map((tech, index) => (
-                      <span
-                        key={index}
-                        className="text-xs bg-gray-800 text-gray-400 hover:scale-110 transition-all px-2 py-1 rounded-full"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-
-                  {/* Links */}
-                  <div className="flex items-center justify-end gap-6 mt-4">
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-purple-400 hover:scale-110 transition-all"
-                    >
-                      🌐 Website
-                    </a>
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm flex  text-purple-400 hover:scale-110 transition-all"
-                    >
-                      <Github className="w-4 h-8 text-white" />
-                      <p className="px-1 py-2"> GitHub</p>
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </div>
         <div id="services">
           <Services />

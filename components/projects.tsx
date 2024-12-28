@@ -1,29 +1,76 @@
-import React from 'react';
-import { Instagram } from 'lucide-react';
+import React from "react";
+import { Instagram } from "lucide-react";
 
-// Sample data object
-const projectData = {
-  title: "House of X",
-  tags: ["Logo Design", "Brand Identity"],
-  description: "A one-stop solution for creators and celebrities to create and empower best-in-class brands of the future. They are on a mission to build a house of brands that cater to the future generation, i.e. GenZ.",
-  projectImage: "/api/placeholder/600/300",  // Using placeholder for demo
-  creator: {
-    name: "Raj Shamani",
-    image: "/api/placeholder/400/400",
-    instagramHandle: "@rajshamani"
-  }
-};
+// Define the types for the project data
+interface Creator {
+  name: string;
+  image: string;
+  instagramHandle: string;
+}
 
-const ProjectCard = ({ data = projectData }) => {
+interface Project {
+  title: string;
+  tags: string[];
+  description: string;
+  projectImage: string;
+  creator: Creator;
+}
+
+// Sample data array
+const projectData: Project[] = [
+  {
+    title: "House of X",
+    tags: ["Logo Design", "Brand Identity"],
+    description:
+      "A one-stop solution for creators and celebrities to create and empower best-in-class brands of the future. They are on a mission to build a house of brands that cater to the future generation, i.e., GenZ.",
+    projectImage: "/api/placeholder/600/300",
+    creator: {
+      name: "Raj Shamani",
+      image: "/api/placeholder/400/400",
+      instagramHandle: "@rajshamani",
+    },
+  },
+  {
+    title: "NextGen Design Studio",
+    tags: ["UI/UX", "App Design"],
+    description:
+      "Creating next-generation user experiences through innovative app designs for startups and enterprises. Specializing in mobile-first designs for a seamless user experience.",
+    projectImage: "/api/placeholder/600/300",
+    creator: {
+      name: "Anisha Mehta",
+      image: "/api/placeholder/400/400",
+      instagramHandle: "@anishamehta",
+    },
+  },
+  {
+    title: "EcoVision",
+    tags: ["Sustainability", "Web Development"],
+    description:
+      "Developing eco-friendly solutions for the digital age. EcoVision is dedicated to creating sustainable websites that contribute to environmental conservation.",
+    projectImage: "/api/placeholder/600/300",
+    creator: {
+      name: "Kabir Joshi",
+      image: "/api/placeholder/400/400",
+      instagramHandle: "@kabirjoshi",
+    },
+  },
+];
+
+// Define props for the ProjectCard component
+interface ProjectCardProps {
+  data: Project;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
   return (
-    <div className="max-w-4xl bg-black text-white p-6 rounded-xl">
+    <div className="max-w-4xl bg-black text-white p-6 rounded-xl mb-8">
       {/* Header Section */}
       <div className="space-y-4 mb-6">
         <h1 className="text-4xl font-bold">{data.title}</h1>
         <div className="flex gap-2">
           {data.tags.map((tag, index) => (
-            <span 
-              key={index} 
+            <span
+              key={index}
               className="px-3 py-1 bg-zinc-800 text-white rounded-full text-sm hover:bg-zinc-700 transition-colors"
             >
               {tag}
@@ -71,4 +118,14 @@ const ProjectCard = ({ data = projectData }) => {
   );
 };
 
-export default ProjectCard;
+const Projects: React.FC = () => {
+  return (
+    <div className="space-y-8">
+      {projectData.map((project, index) => (
+        <ProjectCard key={index} data={project} />
+      ))}
+    </div>
+  );
+};
+
+export default Projects;
