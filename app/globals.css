@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -73,4 +74,47 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.colorBox {
+  z-index: 2;
+  filter: brightness(1.1);
+  transition: 2s ease;
+  position: relative;
+  margin: 2px;
+  background: #1d1d1d;
+}
+.colorBox:hover {
+  background: #00bfff;
+  transition-duration: 0s;
+}
+
+@keyframes backgroundAnim {
+  0% {
+    top: -60px;
+  }
+  100% {
+    top: 120%;
+  }
+}
+
+.animate-backgroundAnim {
+  animation: backgroundAnim 6s linear infinite;
+}
+@keyframes spin3D {
+  0% {
+    transform: rotateY(0deg) translateZ(0px);
+  }
+  50% {
+    transform: rotateY(180deg) translateZ(50px);
+  }
+  100% {
+    transform: rotateY(360deg) translateZ(0px);
+  }
+}
+
+.rotate-image-3d {
+  animation: spin3D 5s linear infinite;
+  transform-origin: center;
+  perspective: 1000px;
 }

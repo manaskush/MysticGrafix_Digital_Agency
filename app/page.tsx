@@ -19,6 +19,9 @@ import { Github } from "lucide-react";
 import prosperas from "../public/images/prosperas.png";
 import { HeroVideoDialogDemoTopInBottomOut } from "@/components/demos/hero-video-dialog-box-demo";
 import Footer from "./footer";
+import Hero from "./hero";
+import AnimatedBackground from "./herobox";
+import { MarqueeDemo } from "@/components/demos/marquee-demo";
 
 const projects = [
   {
@@ -124,38 +127,74 @@ export default function Home() {
         scrollToServices={scrollToServices}
       />
 
-      <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="blue" />
-      <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2 ">
-        <div className="py-36"><div className="text-5xl  pb-5 md:text-8xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
-          Create, grow, and <br /> scale your vision
+      {/* <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="blue" /> */}
+      {/* <Image 
+src="/logo/mainlogo.png" 
+alt="logo"
+width={2000}
+height={2000}
+
+className=""/> */}
+
+      {/* Background Logo */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative w-full h-full ">
+          <Image
+            src="/logo/Nav_logo.png"
+            alt="background logo"
+            className="object-contain opacity-10 ml-[25%]  " // Diminished effect
+            priority
+            height={900}
+            width={900}
+            
+          />
         </div>
-        <p className="mt-4 text-xl font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
-          Custom Image and Video Designs based on your Interests. We are a team
-          of creatives who are excited to provide you with best design and web
-          solutions.
-        </p>
-        <p
-  style={{
-    '--font-selector': 'Q1VTVE9NO09mZkJpdCBUcmlhbCBEb3QgQm9sZA==',
-    '--framer-font-family': `"OffBit Trial Dot Bold", "OffBit Trial Dot Bold Placeholder", sans-serif`,
-    '--framer-font-size': '181.41016390094788px',
-    '--framer-line-height': '0.9em',
-    '--framer-text-color': 'var(--token-279f93c0-5840-4158-9a93-81a80c7c1cf0, rgb(3, 3, 9))',
-  } as React.CSSProperties}
-  className="framer-text"
->
-  Creative
-</p>
+      </div>
+{/* 
+<Hero/>
+ */}
 
 
+       {/* Content Container */}
+       <div className="relative w-full">
+        {/* Hero Section */}
+        <section className="relative z-20 w-full">
+          <div className="py-36">
+            <div className="text-5xl pb-5 md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200">
+              Create, grow, and <br /> scale your vision
+            </div>
+            <p className="mt-4 text-xl font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
+              Custom Image and Video Designs based on your Interests. We are a
+              team of creatives who are excited to provide you with best design
+              and web solutions.
+            </p>
 
-        <Link
-          href={"/book"}
-          className="cursor-pointer flex items-center justify-center border rounded-full w-64 p-2  mx-auto my-10 text-white "
-        >
-          Book a call
-        </Link>
+            <Link
+              href="/book"
+              className="cursor-pointer flex items-center justify-center border rounded-full w-64 p-2 mx-auto my-10 text-white"
+            >
+              Book a call
+            </Link>
+          </div>
+        </section>
+        {/* <div className="w-full h-800px ">
+          <AnimatedBackground />;
+        </div> */}
+        <section className="heroabout mt-40 ">
+                     {/* Animated Background Container */}
+                     <div className="relative w-full h-screen overflow-hidden">
+          <div className="absolute inset-0">
+            <AnimatedBackground />
+          </div>
         </div>
+        </section>
+
+
+        <MarqueeDemo/>
+
+
+
+
         <div ref={websiteDesignRef} className="mt-20 text-white">
           {/* <WebsiteDesign /> */}
           <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
@@ -166,6 +205,7 @@ export default function Home() {
               Creating, designing and developing websites that work for your
               business.
             </p>
+            
           </div>
           <div className=" rounded-xl p-8 md:px-6 lg:px-8">
             {/* <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
@@ -252,12 +292,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
         <div ref={graphicDesignRef}>
           <GraphicDesign />
-          <WebsiteDesign/>
+          <WebsiteDesign />
         </div>
+
         <div className="w-full pt-20">
-           
           <SliderOne />
         </div>
         <div ref={shopifyStoresRef}>
@@ -267,17 +308,17 @@ export default function Home() {
             <HeroVideoDialogDemoTopInBottomOut  videoSrc="http://www.youtube.com/watch?v=NQL5P82lm80"
             />
         </div> */}
-            <br /><br />
+        <br />
+        <br />
         <div ref={brandsRef}>
           <Brands />
         </div>
         <div id="services">
-        <Services />
-         
+          <Services />
         </div>
 
         <FAQS />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
