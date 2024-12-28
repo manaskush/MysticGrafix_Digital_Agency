@@ -7,7 +7,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 import Image from "next/image";
 import Link from "next/link";
 import motion from "framer-motion"
-import WebsiteDesign from "./website-design";
+import WebsiteDesign from "./design";
 import GraphicDesign from "./graphic-design";
 import ShopifyStores from "./video_production";
 import Brands from "./brands";
@@ -25,6 +25,7 @@ import { MarqueeDemo } from "@/components/demos/marquee-demo";
 import ProjectCard from "@/components/projects";
 import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonials-demo";
 import MysticGrafix from "@/components/MysticGrafix/MysticGrafix";
+import Project from "./website-design";
 
 
 const projects = [
@@ -164,7 +165,7 @@ className=""/> */}
         {/* Hero Section */}
         <section className="relative z-20 w-full">
           <div className="py-36">
-            <div className="text-5xl pb-5 md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200">
+            <div className="text-5xl pb-5 md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50">
               Create, grow, and <br /> scale your vision
             </div>
             <p className="mt-4 text-xl font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
@@ -200,20 +201,21 @@ className=""/> */}
 
 
         <div ref={websiteDesignRef} className="mt-20 text-white">
+          <Project/>
           {/* <WebsiteDesign /> */}
           <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
-            <div className="text-4xl  md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
+            <div className="text-4xl  md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50 bg-opacity-50">
               Website Design <br /> that works
             </div>
-            <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
+            <p className="mt-4 mb-8 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
               Creating, designing and developing websites that work for your
               business.
             </p>
-            
-          </div>
-          <div>
+            <div>
           <ProjectCard/>
           </div>
+          </div>
+          
           
         </div>
         <div id="services">
