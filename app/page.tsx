@@ -22,6 +22,7 @@ import Footer from "./footer";
 import Hero from "./hero";
 import AnimatedBackground from "./herobox";
 import { MarqueeDemo } from "@/components/demos/marquee-demo";
+import ProjectCard from "@/components/projects";
 
 const projects = [
   {
@@ -207,6 +208,9 @@ className=""/> */}
             </p>
             
           </div>
+          <div>
+          <ProjectCard/>
+          </div>
           <div className=" rounded-xl p-8 md:px-6 lg:px-8">
             {/* <h2 className="text-3xl pt-4 text-green-100 font-sans font-bold relative inline-block">
               <span className="text-green-100">A Collection of </span>
@@ -292,7 +296,10 @@ className=""/> */}
             </div>
           </div>
         </div>
-        
+        <div id="services">
+          <Services />
+        </div>
+
         <div ref={graphicDesignRef}>
           <GraphicDesign />
           <WebsiteDesign />
@@ -313,10 +320,7 @@ className=""/> */}
         <div ref={brandsRef}>
           <Brands />
         </div>
-        <div id="services">
-          <Services />
-        </div>
-
+        
         <FAQS />
         <Footer />
       </div>

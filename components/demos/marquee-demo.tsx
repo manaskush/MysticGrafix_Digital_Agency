@@ -3,31 +3,31 @@ import Marquee from "@/components/ui/marquee";
 
 const reviews = [
   {
-    name: "Jack",
+    name: "AI Angandwadi",
     img: "/images/angnwadi.png",
   },
   {
-    name: "Jill",
-     img: "/images/fassadlogo.png",
+    name: "Fassad",
+     img: "/images/fassad.png",
   },
   {
-    name: "John",
+    name: "Meerut Mahotsav",
     img: "/images/MM.png",
   },
   {
-    name: "Jane",
+    name: "The Pahadi Bro",
    img: "/images/PAHADIBRO.png",
   },
   {
-    name: "Jenny",
+    name: "Surya K_Star",
   img: "/images/platestar.png",
   },
   {
-    name: "James",
+    name: "Ventes",
      img: "/images/venteslogo.png",
   },
   {
-    name: "James",
+    name: "The Wollek Club",
      img: "/images/wclub.png",
   },
 ];
@@ -69,7 +69,10 @@ const ReviewCard = ({
 
 export function MarqueeDemo() {
   return (
-    <div className="relative flex h-[500px] w-full bg-none flex-col  items-center justify-center overflow-hidden rounded-lg  md:shadow-xl">
+    <div className="relative flex h-[500px] w-full bg-none flex-col  items-center justify-center overflow-hidden rounded-lg  ">
+        <div className="text-3xl  md:text-5xl text-center my-8 bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
+              The Brands We have Served !
+            </div>
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.name} {...review} />
