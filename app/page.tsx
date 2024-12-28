@@ -23,6 +23,7 @@ import Hero from "./hero";
 import AnimatedBackground from "./herobox";
 import { MarqueeDemo } from "@/components/demos/marquee-demo";
 import ProjectCard from "@/components/projects";
+import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonials-demo";
 
 const projects = [
   {
@@ -299,8 +300,10 @@ className=""/> */}
         <div id="services">
           <Services />
         </div>
-
-        <div ref={graphicDesignRef}>
+        <div>
+          <AnimatedTestimonialsDemo/>
+        </div>
+        {/* <div ref={graphicDesignRef}>
           <GraphicDesign />
           <WebsiteDesign />
         </div>
@@ -310,16 +313,16 @@ className=""/> */}
         </div>
         <div ref={shopifyStoresRef}>
           <VideoProd />
-        </div>
+        </div> */}
         {/* <div className="flex justify-center items-center ">
             <HeroVideoDialogDemoTopInBottomOut  videoSrc="http://www.youtube.com/watch?v=NQL5P82lm80"
             />
         </div> */}
         <br />
         <br />
-        <div ref={brandsRef}>
+        {/* <div ref={brandsRef}>
           <Brands />
-        </div>
+        </div> */}
         
         <FAQS />
         <Footer />
