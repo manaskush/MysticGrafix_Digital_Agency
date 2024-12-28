@@ -18,6 +18,12 @@ const config = {
   		}
   	},
   	extend: {
+      backdropBlur: {
+        custom: '10px',
+      },
+      backdropBrightness: {
+        120: '1.2',
+      },
   		colors: {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',

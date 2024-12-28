@@ -11,7 +11,7 @@ import {
 const FAQS = () => {
   return (
     <motion.div
-      className="mt-10 md:py-10 bg-[#f6f5f4] w-full rounded-3xl"
+     className="bg-white/20 backdrop-blur-custom backdrop-brightness-120 border mt-10 md:py-10  w-full rounded-3xl border-white/30"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.2 }}
@@ -26,7 +26,7 @@ const FAQS = () => {
       >
         {/* Heading */}
         <motion.div
-          className="text-3xl md:text-7xl font-bold text-black"
+          className="text-3xl md:text-7xl font-bold text-white"
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
@@ -37,7 +37,7 @@ const FAQS = () => {
 
         {/* Subheading */}
         <motion.div
-          className="font-semibold text-3xl md:text-6xl bg-gradient-to-r from-emerald-600 to-blue-300 bg-clip-text text-transparent"
+          className="font-semibold text-3xl md:text-6xl bg-gradient-to-r from-purple-600 to-blue-300 bg-clip-text text-transparent"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
