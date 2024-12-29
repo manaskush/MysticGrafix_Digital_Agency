@@ -19,38 +19,38 @@ interface Project {
 // Sample data array
 const projectData: Project[] = [
   {
-    title: "House of X",
-    tags: ["Logo Design", "Brand Identity"],
+    title: "Surya K.Star",
+    tags: ["Logo Design", "Brand Identity","Video Production"],
     description:
       "A one-stop solution for creators and celebrities to create and empower best-in-class brands of the future. They are on a mission to build a house of brands that cater to the future generation, i.e., GenZ.",
-    projectImage: "/api/placeholder/600/300",
+    projectImage: "/images/plate.jpg",
     creator: {
-      name: "Raj Shamani",
-      image: "/api/placeholder/400/400",
+      name: "Surya K.Star",
+      image: "/images/platestar.pnhg",
       instagramHandle: "@rajshamani",
     },
   },
   {
-    title: "NextGen Design Studio",
+    title: "The Pahadi Bro",
     tags: ["UI/UX", "App Design"],
     description:
       "Creating next-generation user experiences through innovative app designs for startups and enterprises. Specializing in mobile-first designs for a seamless user experience.",
-    projectImage: "/api/placeholder/600/300",
+    projectImage: "/images/shilajit3.jpg",
     creator: {
       name: "Anisha Mehta",
-      image: "/api/placeholder/400/400",
+      image: "/images/PAHADIBRO.png",
       instagramHandle: "@anishamehta",
     },
   },
   {
-    title: "EcoVision",
-    tags: ["Sustainability", "Web Development"],
+    title: "Ventes",
+    tags: ["E-Commerce", "Web Development"],
     description:
       "Developing eco-friendly solutions for the digital age. EcoVision is dedicated to creating sustainable websites that contribute to environmental conservation.",
-    projectImage: "/api/placeholder/600/300",
+    projectImage: "/images/ventess.png",
     creator: {
-      name: "Kabir Joshi",
-      image: "/api/placeholder/400/400",
+      name: "Ventes Ecommerce",
+      image: "/images/venteslogo.png",
       instagramHandle: "@kabirjoshi",
     },
   },
@@ -87,7 +87,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
           <img
             src={data.projectImage}
             alt="Project visualization"
-            className="w-full h-64 object-cover"
+            className="w-full  object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         </div>
@@ -98,7 +98,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             <img
               src={data.creator.image}
               alt={`${data.creator.name}'s profile`}
-              className="ml-auto w-48 h-48 object-cover rounded-lg"
+              className="ml-auto  object-cover rounded-lg"
             />
             <div className="flex items-center justify-end gap-2">
               <Instagram className="w-5 h-5" />
