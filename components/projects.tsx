@@ -26,7 +26,7 @@ const projectData: Project[] = [
     projectImage: "/images/plate.jpg",
     creator: {
       name: "Surya K.Star",
-      image: "/images/platestar.pnhg",
+      image: "/images/platestar.png",
       instagramHandle: "@rajshamani",
     },
   },
@@ -49,7 +49,7 @@ const projectData: Project[] = [
       "Developing eco-friendly solutions for the digital age. EcoVision is dedicated to creating sustainable websites that contribute to environmental conservation.",
     projectImage: "/images/ventess.png",
     creator: {
-      name: "Ventes Ecommerce",
+      name: "Ventes InfoTech",
       image: "/images/venteslogo.png",
       instagramHandle: "@kabirjoshi",
     },
