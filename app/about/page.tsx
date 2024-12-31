@@ -3,6 +3,7 @@
 import Navbar from "@/components/navbar"
 import Footer from "../footer"
 import { useRef } from "react";
+import Image from "next/image";
 
 export default function TeamPage() {
     const teamMembers = [
@@ -81,7 +82,7 @@ export default function TeamPage() {
           <div className="bg-zinc-900 rounded-lg p-8 mb-16">
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div className="aspect-square relative">
-                <img
+                <Image
 
                   src="/images/founder.JPG"
                   alt="Featured team member"
@@ -126,7 +127,7 @@ MysticGrafix is a creative powerhouse dedicated to transforming imagination into
             {teamMembers.map((member, index) => (
               <div key={index} className="space-y-4">
                 <div className="aspect-square relative">
-                  <img
+                  <Image
                     src={member.image}
                     alt={member.name}
                     className="rounded-lg grayscale w-full h-full object-cover"
