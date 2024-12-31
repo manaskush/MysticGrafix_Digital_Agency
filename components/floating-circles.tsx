@@ -14,7 +14,7 @@ const FloatingCircle: React.FC = () => {
     const handleMouseMove = (e: MouseEvent): void => {
       const x = (e.clientX / window.innerWidth) * 100; // Mouse X position as a percentage
       const y = (e.clientY / window.innerHeight) * 100; // Mouse Y position as a percentage
-      setPosition({ x: 100 - x, y: 100 - y }); // Invert positions for opposite movement
+      setPosition({ x:  x, y:  y }); // Invert positions for opposite movement
     };
 
     const handleScroll = (): void => {
