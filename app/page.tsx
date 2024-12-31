@@ -24,9 +24,8 @@ import AnimatedBackground from "./herobox";
 import { MarqueeDemo } from "@/components/demos/marquee-demo";
 import ProjectCard from "@/components/projects";
 import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonials-demo";
-import MysticGrafix from "@/components/MysticGrafix/MysticGrafix";
 import Project from "./website-design";
-import Header from "@/components/Header/Header";
+
 
 
 const projects = [
@@ -159,7 +158,7 @@ className=""/> */}
 {/* 
 <Hero/>
  */}
- <Header/>
+ {/* <Header/> */}
 
        {/* Content Container */}
        <div className="relative w-full">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Instagram } from "lucide-react";
+import Image from "next/image";
 
 // Define the types for the project data
 interface Creator {
@@ -84,10 +85,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Project Image */}
         <div className="relative rounded-lg overflow-hidden bg-gradient-to-b from-green-500/20 to-transparent">
-          <img
+          <Image
             src={data.projectImage}
             alt="Project visualization"
             className="w-full  object-cover"
+            width={500}
+            height={500}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         </div>
@@ -95,10 +98,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
         {/* Creator Profile */}
         <div className="flex items-end justify-end">
           <div className="text-right space-y-4">
-            <img
+            <Image
               src={data.creator.image}
               alt={`${data.creator.name}'s profile`}
               className="ml-auto  object-cover rounded-lg"
+              width={300}
+              height={300}
             />
             <div className="flex items-center justify-end gap-2">
               <Instagram className="w-5 h-5" />

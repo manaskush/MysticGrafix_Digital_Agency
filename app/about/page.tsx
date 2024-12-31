@@ -106,7 +106,7 @@ export default function TeamPage() {
                   attention and a tailored solution that captures its essence.
                 </p>
                 <p className="text-gray-300">
-                  Our vision is to transform brands' ideas into compelling visuals that
+                  Our vision is to transform brands ideas into compelling visuals that
                   resonate with their target audience.
                 </p>
               </div>
@@ -117,7 +117,7 @@ export default function TeamPage() {
             <div className="">
                 <h1 className="text-blue-500 text-5xl ">About the Company</h1>   
                 <p className="text-blue-300 text-xl mt-8">
-MysticGrafix is a creative powerhouse dedicated to transforming imagination into stunning visual experiences. Specializing in cutting-edge graphic design, animation, and digital artistry, we bring bold ideas to life with precision and innovation. Our mission is to empower brands, businesses, and individuals to communicate their stories through captivating visuals that leave a lasting impression. Whether it's branding, motion graphics, or custom artwork, MysticGrafix combines artistic creativity with the latest technology to deliver designs that inspire and engage. Let us bring your vision to life and make your ideas truly unforgettable.
+MysticGrafix is a creative powerhouse dedicated to transforming imagination into stunning visual experiences. Specializing in cutting-edge graphic design, animation, and digital artistry, we bring bold ideas to life with precision and innovation. Our mission is to empower brands, businesses, and individuals to communicate their stories through captivating visuals that leave a lasting impression. Whether it is branding, motion graphics, or custom artwork, MysticGrafix combines artistic creativity with the latest technology to deliver designs that inspire and engage. Let us bring your vision to life and make your ideas truly unforgettable.
 </p>
         </div>
           </div>
