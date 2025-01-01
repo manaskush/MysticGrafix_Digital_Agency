@@ -6,37 +6,37 @@ export default function ProjectsPage() {
     {
       id: 1,
       title: "Maninder Buttar",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "",
       href: "#",
     },
     {
       id: 2,
       title: "House Of X",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "",
       href: "#",
     },
     {
       id: 3,
       title: "Highcha Bubble Tea",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "",
       href: "#",
     },
     {
       id: 4,
       title: "Indian",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "",
       href: "#",
     },
     {
       id: 5,
       title: "Head Light",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "",
       href: "#",
     },
     {
       id: 6,
       title: "Cultural",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "",
       href: "#",
     },
   ]
