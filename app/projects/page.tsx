@@ -46,7 +46,7 @@ export default function ProjectsPage() {
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-center gap-8 text-sm font-medium">
           <Link href="/projects" className="text-white hover:text-gray-300">
-            Projects
+            Projects 
           </Link>
           <Link href="/merch" className="text-white hover:text-gray-300">
             Merch
