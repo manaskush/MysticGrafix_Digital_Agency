@@ -52,7 +52,7 @@ export default function ProjectsPage() {
             Merch
           </Link>
           <Link href="/" className="text-2xl font-bold">
-            DZINR
+            MysticGrafix
           </Link>
           <Link href="/team" className="text-white hover:text-gray-300">
             Team
