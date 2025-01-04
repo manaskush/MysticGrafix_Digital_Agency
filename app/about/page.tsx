@@ -71,19 +71,19 @@ export default function TeamPage() {
   
     return (
       <div className="min-h-screen bg-black text-white">
-       <header className="container mx-auto px-4 py-6">
+      <header className=" w-full px-4 py-6 z-100 bg-black/[0.96]">
         <nav className="flex items-center justify-center gap-8 text-sm font-medium">
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
           </Link>
-          <Link href="/merch" className="text-white hover:text-gray-300">
-            Merch
+          <Link href="/testimonials" className="text-white hover:text-gray-300">
+            Testimonials
           </Link>
-          <Link href="/" className="text-2xl font-bold">
+          <Link href="/" className="text-3xl font-bold text-white">
             MysticGrafix
           </Link>
-          <Link href="/team" className="text-white hover:text-gray-300">
-            Team
+          <Link href="/about" className="text-white hover:text-gray-300">
+            About
           </Link>
           <Link href="/contact" className="text-white hover:text-gray-300">
             Contact

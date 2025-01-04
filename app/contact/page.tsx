@@ -38,6 +38,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { PiCheckLight, PiSmiley } from "react-icons/pi";
 import Navbar from "@/components/navbar";
 import Footer from "../footer";
+import Link from "next/link";
 
 const FormSchema = z.object({
   first_name: z.string(),
@@ -125,7 +126,25 @@ export default function ContactForm() {
     }
   }
 
-  return (
+  return (<div><header className=" w-full px-4 py-6 z-100 bg-black/[0.96]">
+    <nav className="flex items-center justify-center gap-8 text-sm font-medium">
+      <Link href="/projects" className="text-white hover:text-gray-300">
+        Projects 
+      </Link>
+      <Link href="/testimonials" className="text-white hover:text-gray-300">
+        Testimonials
+      </Link>
+      <Link href="/" className="text-3xl font-bold text-white">
+        MysticGrafix
+      </Link>
+      <Link href="/about" className="text-white hover:text-gray-300">
+        About
+      </Link>
+      <Link href="/contact" className="text-white hover:text-gray-300">
+        Contact
+      </Link>
+    </nav>
+  </header>
     <div className=" w-full   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden ">
       <Navbar
         scrollToWebsiteDesign={() => {}}
@@ -399,6 +418,7 @@ export default function ContactForm() {
         </Form>
       </div>
       <Footer/>
+    </div>
     </div>
    );
 }
