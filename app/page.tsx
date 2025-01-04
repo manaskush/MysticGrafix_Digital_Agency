@@ -119,18 +119,37 @@ export default function Home() {
   };
   
 
-
   
 
-  return (
+  return (<div>
+    <header className=" w-full px-4 py-6 z-100 bg-black/[0.96]">
+        <nav className="flex items-center justify-center gap-8 text-sm font-medium">
+          <Link href="/projects" className="text-white hover:text-gray-300">
+            Projects 
+          </Link>
+          <Link href="/testimonials" className="text-white hover:text-gray-300">
+            Testimonials
+          </Link>
+          <Link href="/" className="text-3xl font-bold text-white">
+            MysticGrafix
+          </Link>
+          <Link href="/about" className="text-white hover:text-gray-300">
+            About
+          </Link>
+          <Link href="/contact" className="text-white hover:text-gray-300">
+            Contact
+          </Link>
+        </nav>
+      </header>
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-      <Navbar
+      {/* <Navbar
         scrollToWebsiteDesign={scrollToWebsiteDesign}
         scrollToGraphicDesign={scrollToGraphicDesign}
         scrollToShopifyStores={scrollToShopifyStores}
         scrollToBrands={scrollToBrands}
         scrollToServices={scrollToServices}
-      />
+      /> */}
+
 
       {/* <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="blue" /> */}
       {/* <Image 
@@ -248,6 +267,7 @@ className=""/> */}
         <FAQS />
         <Footer />
       </div>
+    </div>
     </div>
   );
 }

@@ -4,6 +4,11 @@ import Navbar from "@/components/navbar"
 import Footer from "../footer"
 import { useRef } from "react";
 import Image from "next/image";
+import InteractiveCircles from "@/components/interactive-circles";
+import ServicesSection from "@/components/service-section";
+import Services from "../services";
+import TestimonialCarousel from "@/components/Testimonials";
+import Link from "next/link";
 
 export default function TeamPage() {
     const teamMembers = [
@@ -66,13 +71,25 @@ export default function TeamPage() {
   
     return (
       <div className="min-h-screen bg-black text-white">
-        <Navbar
-        scrollToWebsiteDesign={scrollToWebsiteDesign}
-        scrollToGraphicDesign={scrollToGraphicDesign}
-        scrollToShopifyStores={scrollToShopifyStores}
-        scrollToBrands={scrollToBrands}
-        scrollToServices={scrollToServices}
-      />
+       <header className="container mx-auto px-4 py-6">
+        <nav className="flex items-center justify-center gap-8 text-sm font-medium">
+          <Link href="/projects" className="text-white hover:text-gray-300">
+            Projects 
+          </Link>
+          <Link href="/merch" className="text-white hover:text-gray-300">
+            Merch
+          </Link>
+          <Link href="/" className="text-2xl font-bold">
+            MysticGrafix
+          </Link>
+          <Link href="/team" className="text-white hover:text-gray-300">
+            Team
+          </Link>
+          <Link href="/contact" className="text-white hover:text-gray-300">
+            Contact
+          </Link>
+        </nav>
+      </header>
   
         <main className="container mx-auto px-4 py-12">
         <div className="text-4xl mb-8 md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50">
@@ -140,6 +157,9 @@ MysticGrafix is a creative powerhouse dedicated to transforming imagination into
               </div>
             ))}
           </div>
+          <InteractiveCircles/>
+          <ServicesSection/>
+          <TestimonialCarousel/>
         </main>
         <Footer />
       </div>
