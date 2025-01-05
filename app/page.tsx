@@ -25,6 +25,7 @@ import { MarqueeDemo } from "@/components/demos/marquee-demo";
 import ProjectCard from "@/components/projects";
 import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonials-demo";
 import Project from "./website-design";
+import { VortexDemo } from "@/components/demos/vortex-demo";
 
 
 
@@ -179,6 +180,7 @@ className=""/> */}
  */}
  {/* <Header/> */}
 
+{/* <VortexDemo/> */}
        {/* Content Container */}
        <div className="relative w-full">
         {/* Hero Section */}

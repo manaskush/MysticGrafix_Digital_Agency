@@ -140,7 +140,7 @@ MysticGrafix is a creative powerhouse dedicated to transforming imagination into
         </div>
           </div>
   
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="space-y-4">
                 <div className="aspect-square relative">
@@ -156,7 +156,7 @@ MysticGrafix is a creative powerhouse dedicated to transforming imagination into
                 <div className="text-gray-400">{member.role}</div>
               </div>
             ))}
-          </div>
+          </div> */}
           <InteractiveCircles/>
           <ServicesSection/>
           <TestimonialCarousel/>
