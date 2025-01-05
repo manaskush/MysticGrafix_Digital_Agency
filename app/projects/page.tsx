@@ -48,14 +48,19 @@ export default function ProjectsPage() {
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
           </Link>
-          <Link href="/merch" className="text-white hover:text-gray-300">
-            Merch
+          <Link href="/testimonials" className="text-white hover:text-gray-300">
+            Testimonials
           </Link>
-          <Link href="/" className="text-2xl font-bold">
-            MysticGrafix
+          <Link href="/" className="text-3xl font-bold text-white">
+            <Image priority
+              src="/logo/Mysticlogo.png"
+              alt="Logo"
+              width={50000}
+              height={50000}
+              className="w-60 h-30 md:w-45 md:h-25"/>
           </Link>
-          <Link href="/team" className="text-white hover:text-gray-300">
-            Team
+          <Link href="/about" className="text-white hover:text-gray-300">
+            About
           </Link>
           <Link href="/contact" className="text-white hover:text-gray-300">
             Contact

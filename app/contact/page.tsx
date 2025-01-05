@@ -39,6 +39,7 @@ import { PiCheckLight, PiSmiley } from "react-icons/pi";
 import Navbar from "@/components/navbar";
 import Footer from "../footer";
 import Link from "next/link";
+import Image from "next/image";
 
 const FormSchema = z.object({
   first_name: z.string(),
@@ -135,8 +136,13 @@ export default function ContactForm() {
         Testimonials
       </Link>
       <Link href="/" className="text-3xl font-bold text-white">
-        MysticGrafix
-      </Link>
+            <Image priority
+              src="/logo/Mysticlogo.png"
+              alt="Logo"
+              width={50000}
+              height={50000}
+              className="w-60 h-30 md:w-45 md:h-25"/>
+          </Link>
       <Link href="/about" className="text-white hover:text-gray-300">
         About
       </Link>

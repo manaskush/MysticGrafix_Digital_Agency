@@ -132,7 +132,12 @@ export default function Home() {
             Testimonials
           </Link>
           <Link href="/" className="text-3xl font-bold text-white">
-            MysticGrafix
+            <Image priority
+              src="/logo/Mysticlogo.png"
+              alt="Logo"
+              width={50000}
+              height={50000}
+              className="w-60 h-30 md:w-45 md:h-25"/>
           </Link>
           <Link href="/about" className="text-white hover:text-gray-300">
             About

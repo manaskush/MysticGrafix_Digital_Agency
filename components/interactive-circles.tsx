@@ -97,7 +97,7 @@ export default function IntersectingCircles() {
               fill="white"
               className="text-sm font-bold"
             >
-              YOUR BRAND
+             BRAND
             </text>
           </svg>
         </div>
