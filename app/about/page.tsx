@@ -189,7 +189,7 @@ export default function TeamPage() {
               className="bg-[#2a2ef7] hover:bg-[#4e68df] text-white font-semibold px-8 py-3 rounded-full 
         transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
             >
-              Let's connect to make it a reality!
+              Let&apos;s connect to make it a reality!
             </button>
           </Link>
         </div>
