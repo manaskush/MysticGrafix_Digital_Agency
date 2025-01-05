@@ -8,6 +8,9 @@ const config = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
   ],
+  safelist: [
+    'colorBox', // Add the `colorBox` class to the safelist
+  ],
   prefix: "",
   theme: {
   	container: {
