@@ -160,6 +160,24 @@ MysticGrafix is a creative powerhouse dedicated to transforming imagination into
           <InteractiveCircles/>
           <ServicesSection/>
           <TestimonialCarousel/>
+          <div className="min-h-[50vh] flex flex-col items-center justify-center bg-black text-white px-4 py-16">
+      <h1 className="text-3xl md:text-5xl text-center font-bold mb-6 max-w-3xl mx-auto leading-tight">
+        Want to build a{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-neutral-300">
+          credible and relatable
+        </span>{' '}
+        project for yourself ?
+      </h1>
+      <Link href="/contact">     <button
+        
+        className="bg-[#2a2ef7] hover:bg-[#4e68df] text-white font-semibold px-8 py-3 rounded-full 
+        transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+      >
+        Let's connect to make it a reality!
+      </button>
+      </Link>
+ 
+    </div>
         </main>
         <Footer />
       </div>
