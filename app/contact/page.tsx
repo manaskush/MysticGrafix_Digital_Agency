@@ -152,13 +152,13 @@ export default function ContactForm() {
     </nav>
   </header>
     <div className=" w-full   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden ">
-      <Navbar
+      {/* <Navbar
         scrollToWebsiteDesign={() => {}}
         scrollToGraphicDesign={() => {}}
         scrollToShopifyStores={() => {}}
         scrollToBrands={() => {}}
         scrollToServices={() => {}}
-      />
+      /> */}
       <div className="md:flex items-start justify-center md:py-20 px-6">
         <div className="">
           <div className="text-5xl font-medium  w-full md:w-2/3  pb-5 md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50 bg-opacity-50">

@@ -29,7 +29,7 @@ export default function RootLayout({
       suppressHydrationWarning={true}
       className={font.className}>
         <Analytics />
-        <FloatingCircles/>
+        {/* <FloatingCircles/> */}
         {children}
         
         </body>

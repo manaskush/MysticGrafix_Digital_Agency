@@ -77,12 +77,13 @@
 }
 
 .colorBox {
+  height: auto;
   z-index: 2;
   filter: brightness(1.1);
   transition: 2s ease;
   position: relative;
   margin: 2px;
-  background: #1d1d1d;
+  background: #0f0f0f;
 }
 .colorBox:hover {
   background: #00bfff;
