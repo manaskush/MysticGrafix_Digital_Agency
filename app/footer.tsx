@@ -29,10 +29,10 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div>
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold text-emerald-600">Quick Links</h3>
-            <ul className="mt-2 space-y-2">
-              <li>
+            <ul className="mt-2 space-y-2"> */}
+              {/* <li>
                 <Link href="/#website-design" className="hover:text-white transition">
                   Website Design
                 </Link>
@@ -41,8 +41,8 @@ const Footer = () => {
                 <Link href="/#graphic-design" className="hover:text-white transition">
                   Graphic Design
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/#services" className="hover:text-white transition">
                   Services
                 </Link>
@@ -53,28 +53,27 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div>
-          <h3 className="text-lg font-semibold mt-4 text-blue-300">Explore Different Pages</h3>
+          <h3 className="text-lg font-semibold mt-4 text-emerald-600">Explore Different Pages</h3>
             <ul className="mt-2 space-y-2">
-              <li>
-                <Link href="/#website-design" className="hover:text-white transition">
-                  Contact Number - 
+            <li>
+                <Link href="/about" className="hover:text-white transition">
+                  About us
+                </Link>
+              </li><li>
+                <Link href="/contact" className="hover:text-white transition">
+                  Contact Number 
                 </Link>
               </li>
               <li>
-                <Link href="/#graphic-design" className="hover:text-white transition">
-                  Graphic Design
+                <Link href="/projects" className="hover:text-white transition">
+                  Projects
                 </Link>
-              </li>
+              </li> 
               <li>
-                <Link href="/#services" className="hover:text-white transition">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/#faq" className="hover:text-white transition">
-                  FAQs
+                <Link href="/testimonials" className="hover:text-white transition">
+                  Testimonails
                 </Link>
               </li>
             </ul>
