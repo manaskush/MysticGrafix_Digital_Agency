@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useEffect, useRef } from 'react';
 
 interface NavItem {
@@ -66,14 +67,18 @@ const AnimatedBackground = () => {
       </p>
       <div className="flex flex-col md:flex-row gap-4">
   {/* Button 1 */}
+  <Link href="/about">
   <button className="font-['Poppins'] px-[18px] py-2 mb-4 text-xl bg-[#00bfff] text-white rounded hover:bg-white hover:text-[#00bfff] border-2 border-[#00bfff] transition duration-300 font-semibold">
     Learn More
   </button>
+  </Link>
 
   {/* Button 2 */}
+  <Link href="/contact">
   <button className="font-['Poppins'] px-[18px] py-2 mb-4 text-xl bg-white text-[#00bfff] rounded hover:bg-[#00bfff] hover:text-white border-2 border-[#00bfff] transition duration-300 font-semibold">
     Book a Session
   </button>
+  </Link>
 </div>
 
     </div>
