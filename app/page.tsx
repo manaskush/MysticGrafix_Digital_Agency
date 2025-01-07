@@ -201,7 +201,7 @@ className=""/> */}
             </p>
 
             <Link
-              href="/book"
+              href="/contact"
               className="cursor-pointer flex items-center justify-center border rounded-full w-64 p-2 mx-auto my-10 text-white"
             >
               Book a call
