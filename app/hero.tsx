@@ -17,7 +17,7 @@ export default function Home() {
             fontSize: "12xl",
           }}
         >
-          MYSTIC
+          MYSTIC 
         </motion.h1>
 
         {/* Second Heading */}
