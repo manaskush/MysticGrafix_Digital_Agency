@@ -10,6 +10,7 @@ interface Testimonial {
   // TestimonialCarousel.tsx
   import React, { useState } from 'react';
   import { ChevronUp, ChevronDown } from 'lucide-react';
+import Image from 'next/image';
   const testimonials: Testimonial[] = [
     {
       id:1,
@@ -193,7 +194,7 @@ interface Testimonial {
               style={getImagePosition(index)}
               onClick={() => handleImageClick(index)}
             >
-              <img
+              <Image
                 src={item.imgSrc}
                 alt={`Testimonial ${index + 1}`}
                 className={`w-24 h-24 rounded-full border-2 ${

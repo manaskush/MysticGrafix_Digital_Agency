@@ -222,6 +222,11 @@ className=""/> */}
 
         <MarqueeDemo/>
 
+        <div id="services">
+          <Services />
+        </div>
+
+
 
 
 
@@ -243,9 +248,7 @@ className=""/> */}
           
            */}
         </div>
-        <div id="services">
-          <Services />
-        </div>
+        
         <div>
           <AnimatedTestimonialsDemo/>
         </div>

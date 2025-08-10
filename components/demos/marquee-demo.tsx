@@ -71,7 +71,7 @@ export function MarqueeDemo() {
   return (
     <div className="relative flex h-[500px] w-full bg-none flex-col  items-center justify-center overflow-hidden rounded-lg  ">
         <div className="text-3xl  md:text-5xl text-center my-8 bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
-              "Brands That Believe in Us"
+              Brands That Believe in Us
             </div>
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (

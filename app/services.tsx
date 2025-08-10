@@ -20,7 +20,8 @@ const Services = () => {
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 0.8 }}
       >
-        Streamline your business with our services
+        Grow Your Brand with 360° Creative & Digital Solutions
+
       </motion.div>
 
       {/* Animated Paragraph */}
@@ -31,8 +32,7 @@ const Services = () => {
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        From website design to social media management, We offer a wide range
-        of services to help you grow your business.
+        At MysticGrafix, we&apos;re a full-service PR and branding agency helping businesses shine online and offline. From social media management (creative designs, reels, influencer marketing) to digital marketing (META ads), website development, product & video ad shoots, logo & packaging design, brand presence strategies, and 3D design — we craft impactful stories that connect with your audience and drive results.
       </motion.p>
 
       {/* Card Section Animation */}
