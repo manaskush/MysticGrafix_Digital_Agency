@@ -26,6 +26,7 @@ import ProjectCard from "@/components/projects";
 import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonials-demo";
 import Project from "./website-design";
 import { VortexDemo } from "@/components/demos/vortex-demo";
+import ServicesDropdown from "@/components/dropdown";
 
 
 
@@ -128,9 +129,7 @@ export default function Home() {
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
           </Link>
-          <Link href="/testimonials" className="text-white hover:text-gray-300">
-            Testimonials
-          </Link>
+          <ServicesDropdown />
           <Link href="/" className="text-3xl font-bold text-white">
             <Image priority
               src="/logo/Mysticlogo.png"
@@ -167,7 +166,7 @@ height={2000}
 className=""/> */}
 
       {/* Background Logo */}
-      <div className="absolute inset-0 flex items-center justify-center">
+      {/* <div className="absolute inset-0 flex items-center justify-center">
         <div className="relative w-full h-full ">
           <Image
             src="/logo/Nav_logo.png"
@@ -179,7 +178,7 @@ className=""/> */}
             
           />
         </div>
-      </div>
+      </div> */}
 {/* 
 <Hero/>
  */}
@@ -189,7 +188,7 @@ className=""/> */}
        {/* Content Container */}
        <div className="relative w-full">
         {/* Hero Section */}
-        <section className="relative z-20 w-full">
+        {/* <section className="relative z-20 w-full">
           <div className="py-36">
             <div className="text-5xl pb-5 md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50">
               Create, grow, and <br /> scale your vision
@@ -207,11 +206,11 @@ className=""/> */}
               Book a call
             </Link>
           </div>
-        </section>
+        </section> */}
         {/* <div className="w-full h-800px ">
           <AnimatedBackground />;
         </div> */}
-        <section className="heroabout mt-40 ">
+        <section className="heroabout  ">
                      {/* Animated Background Container */}
                      <div className="relative w-full h-screen overflow-hidden">
           <div className="absolute inset-0">

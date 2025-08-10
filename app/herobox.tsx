@@ -54,22 +54,22 @@ const AnimatedBackground = () => {
 
     {/* Right Section */}
     <div className="flex flex-col items-center md:items-start ml-40">
-      <h1 className="text-8xl mb-4 text-[#00bfff] font-semibold">ABOUT US</h1>
-      <p className="text-xl mb-6 max-w-lg">
-        Fast Track Your Web Development Career with Our Team! Learn Web
-        Development from the beginning with live coding sessions on your
-        laptop!
+      <h1 className="text-6xl mb-4 text-[#00bfff] font-semibold">WE TURN IDEAS INTO IMPACT</h1>
+      <p className="text-l mb-1 max-w-lg">
+        Creative Branding & Digital Design !
+      </p>
+      <h1 className="text-4xl mb-4 font text-[#00bfff] font-semibold">Welcome to MysticGrafix</h1>
+      <p className="text-xl mb-1 max-w-lg">
+       Your Creative Partner for Business Growth
       </p>
       <p className="text-xl mb-6 max-w-lg">
-        Fast Track Your Web Development Career with Our Team! Learn Web
-        Development from the beginning with live coding sessions on your
-        laptop!
+       We&apos;re a full-service design and branding agency dedicated to turning your vision into stunning visuals that inspire, engage, and sell. From brand identity to social media creatives — we make your business unforgettable.
       </p>
       <div className="flex flex-col md:flex-row gap-4">
   {/* Button 1 */}
   <Link href="/about">
   <button className="font-['Poppins'] px-[18px] py-2 mb-4 text-xl bg-[#00bfff] text-white rounded hover:bg-white hover:text-[#00bfff] border-2 border-[#00bfff] transition duration-300 font-semibold">
-    Learn More
+    Explore More
   </button>
   </Link>
 
