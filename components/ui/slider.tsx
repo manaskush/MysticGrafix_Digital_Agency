@@ -16,7 +16,7 @@ const SliderOne = () => {
     infinite: true,
     slidesToShow: 3,
     autoplay: true,
-    speed: 4000,
+    speed: 8000,
     autoplaySpeed: 1000,
     className: "w-full mx-auto cursor-pointer center-mode",
   };
@@ -94,7 +94,7 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/slider5.jpg"
+              src="/images/slider3.jpg"
               alt="logo"
               width={500}
               height={500}

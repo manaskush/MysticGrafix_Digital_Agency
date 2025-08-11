@@ -35,8 +35,13 @@ export default function IntersectingCircles() {
     }
   ];
 
-  return (
-    <div className="flex flex-col lg:flex-row w-full min-h-screen items-center justify-center p-4 md:p-8 gap-8">
+  return (<div>
+    <h1 className="text-3xl md:text-5xl text-center font-bold mb-1 max-w-3xl mx-auto leading-tight">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-neutral-300">
+              Crafting Your Brand Story
+            </span>{" "}
+          </h1>
+    <div className="flex flex-col lg:flex-row w-full min-h-screen items-center justify-center p-1 md:p-8 gap-8">
       {/* Circles container - full width on mobile, half on desktop */}
       <div className="w-full lg:w-1/2 flex justify-center">
         <div className="w-full max-w-[600px] aspect-square">
@@ -126,6 +131,7 @@ export default function IntersectingCircles() {
           </div>
         )}
       </div>
+    </div>
     </div>
   );
 }

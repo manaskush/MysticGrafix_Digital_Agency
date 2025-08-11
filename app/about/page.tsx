@@ -9,6 +9,9 @@ import ServicesSection from "@/components/service-section";
 import Services from "../services";
 import TestimonialCarousel from "@/components/Testimonials";
 import Link from "next/link";
+import BusinessSection from "@/components/businessSection";
+import CertificateSection from "@/components/certificateSection";
+import SliderOne from "@/components/ui/slider";
 
 export default function TeamPage() {
   const teamMembers = [
@@ -113,24 +116,20 @@ export default function TeamPage() {
                 Hello, I am Harsh Jain  
               </p>
               <p className="text-blue-300 text-3xl">
-                Software Engineer & Graphic Designer
+                Founder & Creative Director
               </p>
               <p className="text-gray-300 text-2xl">
-              As a highly motivated self-starter, I
-                bring a steadfast commitment to excellence and a belief that
-                with proper focus and planning, anything is attainable.My
-                relentless drive for success is evident in my ability to
-                consistently deliver outstanding results, even in tasks that
-                require me to expand my skill set.</p>
+              At MysticGrafix, we believe that a strong brand presence starts with the perfect blend of creativity, strategy, and technology. Our mission is to help businesses thrive in the digital world through innovative designs, impactful marketing campaigns, and cutting-edge solutions.</p>
               
               <p className="text-gray-300 text-2xl">
-              I excel in challenging
-                environments and continuously seek opportunities to push my
-                limits, drive personal growth, and achieve new levels of
-                success.
+              With expertise in social media management, digital marketing (including META ads), website development, product and video ad shoots, logo and packaging design, and 3D brand visualization, MysticGrafix is your full-service partner for building a brand that connects and converts.
+
               </p>
               <p className="text-gray-300 text-2xl">
-                My Vision is to provide my clients a memory they can live with.
+                I founded MysticGrafix with the vision of creating a space where brands can tell their story in the most engaging way possible. My background in software engineering and graphic design allows me to combine technical precision with artistic creativity, ensuring every project delivers both aesthetic appeal and tangible results.
+              </p>
+              <p className="text-gray-300 text-2xl">
+                We don&apos;t just design visuals — we craft experiences that leave a lasting impression. Whether it&apos;s elevating your social media presence, developing a stunning website, or producing high-quality visual content, MysticGrafix is here to streamline your brand&apos;s journey to success.
               </p>
             </div>
           </div>
@@ -155,6 +154,9 @@ export default function TeamPage() {
           </div>
         </div>
 
+        <BusinessSection />
+
+
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="space-y-4">
@@ -172,16 +174,28 @@ export default function TeamPage() {
               </div>
             ))}
           </div> */}
+          
+          
         <InteractiveCircles />
+        
         <ServicesSection />
+
+<h1 className="text-3xl md:text-5xl text-center font-bold mb-1 max-w-3xl mx-auto leading-tight">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-neutral-300">
+             "From Individuals to Enterprises" — We&apos;ve Got You Covered
+            </span>{" "}
+          </h1>
+
+<CertificateSection />
+<SliderOne />
         {/* <TestimonialCarousel /> */}
         <div className="min-h-[50vh] flex flex-col items-center justify-center bg-black text-white px-4 py-16">
           <h1 className="text-3xl md:text-5xl text-center font-bold mb-6 max-w-3xl mx-auto leading-tight">
-            Want to build a{" "}
+            Your brand is the heart of your business —{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-neutral-300">
-              credible and relatable
+              and we&apos;re here to make it unforgettable
             </span>{" "}
-            project for yourself ?
+            
           </h1>
           <Link href="/contact">
             {" "}

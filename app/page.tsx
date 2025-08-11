@@ -27,6 +27,7 @@ import { AnimatedTestimonialsDemo } from "@/components/demos/animated-testimonia
 import Project from "./website-design";
 import { VortexDemo } from "@/components/demos/vortex-demo";
 import ServicesDropdown from "@/components/dropdown";
+import TestimonialSlider from "@/components/testimonialSlider";
 
 
 
@@ -255,12 +256,15 @@ className=""/> */}
         {/* <div ref={graphicDesignRef}>
           <GraphicDesign />
           <WebsiteDesign />
-        </div>
+        </div> */}
 
-        <div className="w-full pt-20">
-          <SliderOne />
-        </div>
-        <div ref={shopifyStoresRef}>
+        {/* <div className="w-full pt-20">
+          <TestimonialSlider />
+           <SliderOne /> 
+           </div>
+          */}
+        
+        {/* <div ref={shopifyStoresRef}>
           <VideoProd />
         </div> */}
         {/* <div className="flex justify-center items-center ">
