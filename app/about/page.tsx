@@ -12,6 +12,7 @@ import Link from "next/link";
 import BusinessSection from "@/components/businessSection";
 import CertificateSection from "@/components/certificateSection";
 import SliderOne from "@/components/ui/slider";
+import ServicesDropdown from "@/components/dropdown";
 
 export default function TeamPage() {
   const teamMembers = [
@@ -75,9 +76,7 @@ export default function TeamPage() {
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects
           </Link>
-          <Link href="/testimonials" className="text-white hover:text-gray-300">
-            Testimonials
-          </Link>
+         <ServicesDropdown />
           <Link href="/" className="text-3xl font-bold text-white">
             <Image priority
               src="/logo/Mysticlogo.png"

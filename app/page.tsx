@@ -28,6 +28,7 @@ import Project from "./website-design";
 import { VortexDemo } from "@/components/demos/vortex-demo";
 import ServicesDropdown from "@/components/dropdown";
 import TestimonialSlider from "@/components/testimonialSlider";
+import ReviewsMarquee from "@/components/reviewsMarquee";
 
 
 
@@ -252,6 +253,7 @@ className=""/> */}
         
         <div>
           <AnimatedTestimonialsDemo/>
+          <ReviewsMarquee />
         </div>
         {/* <div ref={graphicDesignRef}>
           <GraphicDesign />
