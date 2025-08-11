@@ -3,7 +3,7 @@ import Image from "next/image";
 const certificates = [
   { src: "/images/UDYAM.png", alt: "UDYAM Certificate" },
   { src: "/images/DPIIT.png", alt: "DPIIT Certificate" },
-  { src: "/images/registrar.png", alt: "Registrar Certificate" },
+  { src: "/images/Registrar.png", alt: "Registrar Certificate" },
 ];
 
 export default function CertificateSection() {
