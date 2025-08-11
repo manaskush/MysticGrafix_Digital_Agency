@@ -181,7 +181,7 @@ export default function TeamPage() {
 
 <h1 className="text-3xl md:text-5xl text-center font-bold mb-1 max-w-3xl mx-auto leading-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-neutral-300">
-             "From Individuals to Enterprises" — We&apos;ve Got You Covered
+             From Individuals to Enterprises — We&apos;ve Got You Covered
             </span>{" "}
           </h1>
 
