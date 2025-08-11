@@ -126,7 +126,7 @@ export default function Home() {
   
 
   return (<div>
-    <header className=" w-full px-4 py-6 z-100 bg-black/[0.96]">
+    <header className=" w-full px-4 py-6 z-1000   bg-black/[0.96]">
         <nav className="flex items-center justify-center gap-8 text-sm font-medium">
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
