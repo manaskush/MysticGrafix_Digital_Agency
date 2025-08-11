@@ -1,5 +1,6 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMetaLogo, PiMonitor, PiStorefront } from "react-icons/pi";
+import smm from "@/public/icons/smm.png";
 
 export function CardHoverEffectDemo() {
   return (
@@ -10,45 +11,63 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
     {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiMonitor className="w-8 h-8 text-blue-600" /></div>,
-        title: "Website Design",
+        icon : <div className="bg-blue-100 p-4 rounded-full">
+          <img src="/icons/smm.png" alt="Social Media Management" className="w-8 h-8 object-contain" />
+
+          {/* <PiMonitor className="w-8 h-8 text-blue-600" /> */}
+          </div>,
+        title: "Social Media Management",
         description:
-          "We build fully responsive websites that look great on all devices. Our websites are designed to convert visitors into customers.",
+          "From creative posts to reels, influencer marketing, and META ads — we grow your online presence and boost engagement.",
       
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiStorefront className="w-8 h-8 text-blue-600" /></div>,
-        title: "Video Animations",
+        icon : <div className="bg-blue-100 p-4 rounded-full">
+          <img src="/icons/logo-design.png" alt="Logo & Brand Identity Design" className="w-8 h-8 object-contain" />
+          {/* <PiStorefront className="w-8 h-8 text-blue-600" /> */}
+          </div>,
+        title: "Logo & Brand Identity Design",
         description:
-          "From small stores to large online retailers, we have the expertise to build a store that will help you grow your business.",
+          "Crafting memorable logos and visual identities that make your brand stand out and connect with your audience.",
        
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiMetaLogo className="w-8 h-8 text-blue-600" /></div>,
-        title: "Logo Design",
+        icon : <div className="bg-blue-100 p-4 rounded-full">
+          <img src="/icons/video-production.png" alt="Video Production" className="w-8 h-8 object-contain" />
+          {/* <PiMetaLogo className="w-8 h-8 text-blue-600" /> */}
+          </div>,
+        title: "Product & Ad Shoots",
         description:
-          "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
+          "Professional product photography and video ad shoots that showcase your brand in the best light and increase sales.",
       
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
-        title: "Social Media Management",
+        icon : <div className="bg-blue-100 p-4 rounded-full">
+          <img src="/icons/snacks.png" alt="Package Design" className="w-8 h-8 object-contain" />
+          {/* <PiMegaphone className="w-8 h-8 text-blue-600" /> */}
+          </div>,
+        title: "Packaging Design",
         description:
-          "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",
+          "Eye-catching, market-ready packaging designs that reflect your brand and attract customers.",
       
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiAppStoreLogo className="w-8 h-8 text-blue-600" /></div>,
-        title: "3D Videos",
+        icon : <div className="bg-blue-100 p-4 rounded-full">
+          <img src="/icons/3d-model.png" alt="3D & Motion Graphics" className="w-8 h-8 object-contain" />
+          {/* <PiAppStoreLogo className="w-8 h-8 text-blue-600" /> */}
+          </div>,
+        title: "3D & Motion Graphics",
         description:
-          "We build custom mobile apps for iOS and Android. Our apps are designed to be user-friendly and performant.",
+          "High-quality 3D designs, animations, and videos that bring your ideas to life in a visually stunning way.",
       
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiHeadsetFill className="w-8 h-8 text-blue-600" /></div>,
-        title: "Photo Manipulations",
+        icon : <div className="bg-blue-100 p-4 rounded-full">
+          <img src="/icons/app-development.png" alt="Web Development" className="w-8 h-8 object-contain" />
+          {/* <PiHeadsetFill className="w-8 h-8 text-blue-600" /> */}
+          </div>,
+        title: "Website Design & Development",
         description:
-          "We offer support for all our clients. We are here to help you with any issues or questions you may have.",
-     
-      },
+          "We create responsive, high-performing websites that attract visitors, enhance user experience, and drive conversions for your business.",
+         },
 ];
