@@ -8,7 +8,7 @@ const AnimatedBackground = () => {
   const numberOfColorBoxes = cols * rows;
 
   return (
-    <div className="bg-[#111] text-white font-['Poppins'] relative">
+    <div className="bg-[#111] text-white z-0 font-['Poppins'] relative">
       {/* Background Grid */}
       <div
         className={`absolute inset-0 w-full h-full top-0 bg-black/[0.96]  left-0 grid`}

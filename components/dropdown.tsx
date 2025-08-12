@@ -26,7 +26,7 @@ export default function ServicesDropdown() {
       </button>
 
       <div
-        className={`absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 z-0 transition-opacity duration-200 ${
+        className={`absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 z-[200] transition-opacity duration-200 ${
           isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
         onMouseLeave={() => setIsOpen(false)}
