@@ -126,7 +126,7 @@ export default function Home() {
   
 
   return (<div>
-    <header className=" w-full px-4 py-6 z-1000   bg-black/[0.96]">
+    <header className=" w-full px-4 py-6 z-100 bg-black/[0.96]">
         <nav className="flex items-center justify-center gap-8 text-sm font-medium">
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
@@ -149,69 +149,11 @@ export default function Home() {
         </nav>
       </header>
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-      {/* <Navbar
-        scrollToWebsiteDesign={scrollToWebsiteDesign}
-        scrollToGraphicDesign={scrollToGraphicDesign}
-        scrollToShopifyStores={scrollToShopifyStores}
-        scrollToBrands={scrollToBrands}
-        scrollToServices={scrollToServices}
-      /> */}
-
-
-      {/* <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="blue" /> */}
-      {/* <Image 
-src="/logo/mainlogo.png" 
-alt="logo"
-width={2000}
-height={2000}
-
-className=""/> */}
-
-      {/* Background Logo */}
-      {/* <div className="absolute inset-0 flex items-center justify-center">
-        <div className="relative w-full h-full ">
-          <Image
-            src="/logo/Nav_logo.png"
-            alt="background logo"
-            className="object-contain opacity-10 ml-[25%]  " // Diminished effect
-            priority
-            height={900}
-            width={900}
-            
-          />
-        </div>
-      </div> */}
-{/* 
-<Hero/>
- */}
- {/* <Header/> */}
-
-{/* <VortexDemo/> */}
-       {/* Content Container */}
+     
        <div className="relative w-full">
         {/* Hero Section */}
-        {/* <section className="relative z-20 w-full">
-          <div className="py-36">
-            <div className="text-5xl pb-5 md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50">
-              Create, grow, and <br /> scale your vision
-            </div>
-            <p className="mt-4 text-xl font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
-              Custom Image and Video Designs based on your Interests. We are a
-              team of creatives who are excited to provide you with best design
-              and web solutions.
-            </p>
-
-            <Link
-              href="/contact"
-              className="cursor-pointer flex items-center justify-center border rounded-full w-64 p-2 mx-auto my-10 text-white"
-            >
-              Book a call
-            </Link>
-          </div>
-        </section> */}
-        {/* <div className="w-full h-800px ">
-          <AnimatedBackground />;
-        </div> */}
+        
+        
         <section className="heroabout  ">
                      {/* Animated Background Container */}
                      <div className="relative w-full h-screen overflow-hidden">
