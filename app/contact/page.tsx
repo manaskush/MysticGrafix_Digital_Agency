@@ -40,6 +40,7 @@ import Navbar from "@/components/navbar";
 import Footer from "../footer";
 import Link from "next/link";
 import Image from "next/image";
+import ServicesDropdown from "@/components/dropdown";
 
 const FormSchema = z.object({
   first_name: z.string(),
@@ -127,15 +128,14 @@ export default function ContactForm() {
     }
   }
 
-  return (<div><header className=" w-full px-4 py-6 z-100 bg-black/[0.96]">
-    <nav className="flex items-center justify-center gap-8 text-sm font-medium">
-      <Link href="/projects" className="text-white hover:text-gray-300">
-        Projects 
-      </Link>
-      <Link href="/testimonials" className="text-white hover:text-gray-300">
-        Testimonials
-      </Link>
-      <Link href="/" className="text-3xl font-bold text-white">
+  return (<div>
+    <header className=" w-full px-4 py-6 z-[100] bg-black/[0.96]">
+        <nav className="flex items-center justify-center gap-8 text-sm font-medium">
+          <Link href="/projects" className="text-white hover:text-gray-300">
+            Projects 
+          </Link>
+          <ServicesDropdown />
+          <Link href="/" className="text-3xl font-bold text-white">
             <Image priority
               src="/logo/Mysticlogo.png"
               alt="Logo"
@@ -143,14 +143,14 @@ export default function ContactForm() {
               height={50000}
               className="w-60 h-30 md:w-45 md:h-25"/>
           </Link>
-      <Link href="/about" className="text-white hover:text-gray-300">
-        About
-      </Link>
-      <Link href="/contact" className="text-white hover:text-gray-300">
-        Contact
-      </Link>
-    </nav>
-  </header>
+          <Link href="/about" className="text-white hover:text-gray-300">
+            About
+          </Link>
+          <Link href="/contact" className="text-white hover:text-gray-300">
+            Contact
+          </Link>
+        </nav>
+      </header>
     <div className=" w-full   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden ">
       {/* <Navbar
         scrollToWebsiteDesign={() => {}}

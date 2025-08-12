@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Footer from "../footer"
 import ProjectCard from "@/components/projects";
+import ServicesDropdown from "@/components/dropdown";
 
 export default function ProjectsPage() {
   const projects = [
@@ -45,14 +46,12 @@ export default function ProjectsPage() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <header className="container mx-auto px-4 py-6">
+      <header className=" w-full px-4 py-6 z-[100] bg-black/[0.96]">
         <nav className="flex items-center justify-center gap-8 text-sm font-medium">
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
           </Link>
-          <Link href="/testimonials" className="text-white hover:text-gray-300">
-            Testimonials
-          </Link>
+          <ServicesDropdown />
           <Link href="/" className="text-3xl font-bold text-white">
             <Image priority
               src="/logo/Mysticlogo.png"
