@@ -109,7 +109,7 @@ export default function MotionGraphicsPage() {
                 Captivating Visual Storytelling for Brands
               </h2>
               <p className="text-gray-300 mb-6 leading-relaxed text-lg">
-                We craft motion graphics and 3D content that engage, explain, and entertain. Whether you're launching a product, enhancing your brand identity, or telling a complex story — our visuals do the talking.
+                We craft motion graphics and 3D content that engage, explain, and entertain. Whether you&apos;re launching a product, enhancing your brand identity, or telling a complex story — our visuals do the talking.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
