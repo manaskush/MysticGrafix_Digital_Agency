@@ -8,12 +8,12 @@ export default function ServicesDropdown() {
   const [isOpen, setIsOpen] = useState(false);
 
   const services = [
-    { name: 'SEO', href: '/services/seo' },
+    { name: 'Design', href: '/services/design' },
     { name: 'Web Development', href: '/services/website' },
     { name: '3D & Motion Graphics', href: '/services/3d&MotionGraphics' },
     { name: 'Social Media Marketing', href: '/services/smm' },
-    { name: 'Logo Design', href: '/services/logo-design' },
-    { name: 'Content Writing', href: '/services/content-writing' },
+    { name: 'Logo Design', href: '/services/logo' },
+    { name: 'Brand Shoots', href: '/services/shoots' },
   ];
 
   return (
