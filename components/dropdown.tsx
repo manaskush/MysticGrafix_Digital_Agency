@@ -9,7 +9,8 @@ export default function ServicesDropdown() {
 
   const services = [
     { name: 'SEO', href: '/services/seo' },
-    { name: 'Web Development', href: '/services/web-development' },
+    { name: 'Web Development', href: '/services/website' },
+    { name: '3D & Motion Graphics', href: '/services/3d&MotionGraphics' },
     { name: 'Social Media Marketing', href: '/services/smm' },
     { name: 'Logo Design', href: '/services/logo-design' },
     { name: 'Content Writing', href: '/services/content-writing' },
