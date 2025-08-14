@@ -199,7 +199,7 @@ export default function SocialMediaMarketingPage() {
         {/* CTA */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
                    <motion.div className="max-w-4xl mx-auto px-4 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <h3 className="text-3xl font-bold mb-4 text-white">Let's Elevate Your Social Presence</h3>
+            <h3 className="text-3xl font-bold mb-4 text-white">Let&apos;s Elevate Your Social Presence</h3>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
               Book a free consultation to discover how our strategies can grow your audience and boost engagement.
             </p>

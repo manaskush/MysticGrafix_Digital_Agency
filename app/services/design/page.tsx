@@ -200,9 +200,9 @@ export default function PackagingAndProductDesignPage() {
         {/* CTA */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
           <motion.div className="max-w-4xl mx-auto px-4 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <h3 className="text-3xl font-bold mb-4 text-white">Let’s Design Packaging That Sells</h3>
+            <h3 className="text-3xl font-bold mb-4 text-white">Let&apos;s Design Packaging That Sells</h3>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Book a free consultation and explore how smart design can shape your product’s perception and performance.
+              Book a free consultation and explore how smart design can shape your product&apos;s perception and performance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">

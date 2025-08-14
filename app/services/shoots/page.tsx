@@ -200,7 +200,7 @@ export default function ProductAndAdShootsPage() {
         {/* CTA */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
           <motion.div className="max-w-4xl mx-auto px-4 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <h3 className="text-3xl font-bold mb-4 text-white">Let’s Shoot Something Beautiful</h3>
+            <h3 className="text-3xl font-bold mb-4 text-white">Let&apos;s Shoot Something Beautiful</h3>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
               Book a free consultation and explore how our product and ad shoots can elevate your visual brand.
             </p>

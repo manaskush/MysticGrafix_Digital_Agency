@@ -108,7 +108,7 @@ export default function LogoAndBrandPage() {
                 Make a Bold, Lasting Impression
               </h2>
               <p className="text-gray-300 mb-6 leading-relaxed text-lg">
-                Our team creates timeless logos and cohesive brand systems that reflect your values, stand out in your industry, and resonate with your audience — whether you're a startup or scaling up.
+                Our team creates timeless logos and cohesive brand systems that reflect your values, stand out in your industry, and resonate with your audience — whether you&apos;re a startup or scaling up.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
@@ -200,7 +200,7 @@ export default function LogoAndBrandPage() {
         {/* CTA */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
           <motion.div className="max-w-4xl mx-auto px-4 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <h3 className="text-3xl font-bold mb-4 text-white">Let’s Design a Brand That Sticks</h3>
+            <h3 className="text-3xl font-bold mb-4 text-white">Let&apos;s Design a Brand That Sticks</h3>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
               Book a free consultation and discover how a strong identity can position your business for success.
             </p>
