@@ -142,7 +142,7 @@ const ServicesPage = () => {
       name: "Rajesh Kumar",
       company: "TechStart Solutions",
       image: "RK",
-      text: "Mystic's design work transformed our brand identity completely. The logo and brand materials are absolutely stunning!",
+      text: "Mysticgrafix design work transformed our brand identity completely. The logo and brand materials are absolutely stunning!",
       service: "Design",
       rating: 5
     },
@@ -613,7 +613,7 @@ const ServicesPage = () => {
                   
                   {/* Testimonial Text */}
                   <p className="text-gray-300 mb-6 leading-relaxed italic">
-                    "{testimonial.text}"
+                    {testimonial.text}
                   </p>
                   
                   {/* Author */}
@@ -823,7 +823,7 @@ const ServicesPage = () => {
                 custom={2}
               >
                 Join hundreds of successful businesses who have transformed their digital presence 
-                with our expert services. Let's create something amazing together.
+                with our expert services. Let&apos;s create something amazing together.
               </motion.p>
 
               <motion.div
