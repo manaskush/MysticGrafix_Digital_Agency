@@ -29,6 +29,7 @@ import { VortexDemo } from "@/components/demos/vortex-demo";
 import ServicesDropdown from "@/components/dropdown";
 import TestimonialSlider from "@/components/testimonialSlider";
 import ReviewsMarquee from "@/components/reviewsMarquee";
+import Header from "@/components/header";
 
 
 
@@ -126,7 +127,7 @@ export default function Home() {
   
 
   return (<div>
-    <header className=" w-full px-4 py-6 z-[100] bg-black/[0.96]">
+    {/* <header className=" w-full px-4 py-6 z-[100] bg-black/[0.96]">
         <nav className="flex items-center justify-center gap-8 text-sm font-medium">
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects 
@@ -147,7 +148,8 @@ export default function Home() {
             Contact
           </Link>
         </nav>
-      </header>
+      </header> */}
+      <Header />
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
      
        <div className="relative w-full">
