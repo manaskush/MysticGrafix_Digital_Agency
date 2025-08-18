@@ -6,55 +6,77 @@ import Image from "next/image";
 
 const reviews = [
   {
-    name: "Anupam Jauhari",
-    initials: "A",
+    name: "Bhawana Yadav",
+    initials: "B",
     rating: 5,
     comment:
-      "I had Frozen Shoulder. Could not lift my hand or do usual things. After a month of sessions I am now much better with my mobility and range of motion.",
+      "I am beyond impressed with the editing work done on my precious photo. The editor's skill and attention to detail are exceptional, turning an already special picture into a stunning masterpiece.",
   },
   {
-    name: "Jawed Hussain",
-    initials: "J",
+    name: "Navenia",
+    initials: "N",
     rating: 5,
     comment:
-      "Dr. Mansi is extremely talented. She treated my vertigo and neck shoulder stiffness problems with advanced scientific methods.",
+      "The artist is very talented and quick with his work. He was very respectful and engaging throughout the time to make sure the picture I imagined was brought to life.",
   },
   {
-    name: "Harishankar Saxena",
+    name: "Harshita Khanna",
     initials: "H",
     rating: 5,
     comment:
-      "She helped me get back on my feet. Very thankful for her professional, helping nature.",
+      "Amazing work .. No words to share the happiness.",
   },
   {
-    name: "Sakshi Mehra",
-    initials: "S",
+    name: "Nimisha Kharya",
+    initials: "N",
     rating: 5,
     comment:
-      "Very good experience with the clinic. The physiotherapy was effective and the doctor was caring and understanding.",
+      "Extremely happy I came across this talent who can beautifully craft your imagination into paper. Thank you for the wonderful work and being so supportive.",
   },
   {
-    name: "Rakesh Gupta",
-    initials: "R",
-    rating: 5,
-    comment:
-      "I had chronic back pain and I am almost pain-free now. Highly recommend her clinic!",
-  },
-  {
-    name: "Divya Kapoor",
+    name: "Dhwani Joshi",
     initials: "D",
     rating: 5,
     comment:
-      "Dr. Mansi has magic in her hands! Amazing results after my sessions with her.",
+      "Best experience to make dream photo in true visualize.",
   },
   {
-    name: "Mohit Sharma",
-    initials: "M",
+    name: "Deep Simran",
+    initials: "D",
     rating: 5,
     comment:
-      "Clean clinic, helpful staff, and very knowledgeable doctor. Got great results from the treatment.",
+      "Thanks a lot! You made my day. Seriously, your work is amazing. Looking forward to working with you again.",
+  },
+  {
+    name: "Sonal Shrestha",
+    initials: "S",
+    rating: 5,
+    comment:
+      "Very quick and efficient interaction. Harsh helped me create a wonderful memory for my family.",
+  },
+  {
+    name: "Shweta Chaurasiya",
+    initials: "S",
+    rating: 5,
+    comment:
+      "Nice work.",
+  },
+  {
+    name: "Anmol Kaur",
+    initials: "A",
+    rating: 5,
+    comment:
+      "Excellent work.",
+  },
+  {
+    name: "Pukhraj Anand",
+    initials: "P",
+    rating: 5,
+    comment:
+      "Great work.",
   },
 ];
+
 
 export default function ReviewsMarquee() {
   return (
